@@ -1,0 +1,593 @@
+{
+  "HEADER": {
+    "MORE": {
+      "TEXT": "More"
+    }
+  },
+  "MENUITEMS": {
+    "MENU": {
+      "TEXT": "MENU"
+    },
+    "DASHBOARD": {
+      "TEXT": "Dashboards",
+      "BADGE": "New",
+      "LIST": {
+        "ANALYTICS": "Analytics",
+        "CRM": "CRM",
+        "ECOMMERCE": "Ecommerce",
+        "CRYPTO": "Crypto",
+        "PROJECTS": "Projects",
+        "NFT": "NFT",
+        "JOB": "Job"
+      }
+    },
+    "APPS": {
+      "TEXT": "Apps",
+      "LIST": {
+        "CALENDAR": "Calendar",
+        "MAINCALENDAR": "Main Calendar",
+        "MONTHGRID": "Month Grid",
+        "CHAT": "Chat",
+        "EMAIL": "Email",
+        "MAILBOX": "Mailbox",
+        "MAILTEMPLATES": "Email Templates",
+        "BASICACTION": "Basic Action",
+        "ECOMMERCEACTION": "Ecommerce Action",
+        "ECOMMERCE": "Ecommerce",
+        "PRODUCTS": "Products",
+        "PRODUCTDETAILS": "Product Details",
+        "CREATEPRODUCT": "Create Product",
+        "ORDERS": "Orders",
+        "ORDERDETAILS": "Order Details",
+        "CUSTOMERS": "Customers",
+        "SHOPPINGCART": "Shopping Cart",
+        "CHECKOUT": "Checkout",
+        "SELLERS": "Sellers",
+        "SELLERDETAILS": "Seller Details",
+        "PROJECTS": "Projects",
+        "LIST": "List",
+        "OVERVIEW": "Overview",
+        "CREATEPROJECT": "Create Project",
+        "TASK": "Tasks",
+        "KANBANBOARD": "Kanban Board",
+        "LISTVIEW": "List View",
+        "TASKDETAILS": "Task Details",
+        "CRM": "CRM",
+        "CONTACTS": "Contacts",
+        "COMPANIES": "Companies",
+        "DEALS": "Deals",
+        "LEADS": "Leads",
+        "CRYPTO": "Crypto",
+        "TRANSACTIONS": "Transactions",
+        "BUY&SELL": "Buy & Sell",
+        "MYWALLET": "My Wallet",
+        "ICOLIST": "ICO List",
+        "KYCAPPLICATION": "KYC Application",
+        "INVOICES": "Invoices",
+        "DETAILS": "Details",
+        "CREATEINVOICE": "Create Invoice",
+        "SUPPORTTICKETS": "Support Tickets",
+        "TICKETDETAILS": "Ticket Details",
+        "NFTMARKETPLACE": "NFT Marketplace",
+        "MARKETPLACE": "Marketplace",
+        "EXPLORENOW": "Explore Now",
+        "LIVEAUCTION": "Live Auction",
+        "ITEMDETAILS": "Item Details",
+        "COLLECTIONS": "Collections",
+        "CREATORS": "Creators",
+        "RANKING": "Ranking",
+        "WALLETCONNECT": "Wallet Connect",
+        "CREATENFT": "Create NFT",
+        "FILEMANAGER": "File Manager",
+        "TODO": "To Do",
+        "JOBS": "Jobs",
+        "STATISTICS": "Statistics",
+        "JOBLISTS": "Job Lists",
+        "GRID": "Grid",
+        "CANDIDATELISTS": "Candidate Lists",
+        "GRIDVIEW": "Grid View",
+        "APPLICATION": "Application",
+        "NEWJOB": "New Job",
+        "COMPANIESLIST": "Companies List",
+        "JOBCATEGORIES": "Job Categories",
+        "APIKEY": "API Key"
+      }
+    },
+    "LAYOUTS": {
+      "TEXT": "Layouts",
+      "LIST": {
+        "HORIZONTAL": "Horizontal",
+        "DETACHED": "Detached",
+        "TWOCOLUMN": "Two Column",
+        "HOVERED": "Hovered"
+      }
+    },
+    "PAGES": {
+      "TEXT": "Pages"
+    },
+    "AUTHENTICATION": {
+      "login": {
+        "username": "إسم المستخدم",
+        "password": "كلمة المرور"
+      },
+      "TEXT": "Authentication",
+      "LIST": {
+        "BASIC": "Basic",
+        "COVER": "Cover",
+        "SIGNIN": "Sign In",
+        "SIGNUP": "Sign Up",
+        "PASSWORDRESET": "Password Reset",
+        "PASSWORDCREATE": "Password Create",
+        "LOCKSCREEN": "Lock Screen",
+        "LOGOUT": "Logout",
+        "SUCCESSMESSAGE": "Success Message",
+        "TWOSTEPVERIFICATION": "Two Step Verification",
+        "ERRORS": "Errors",
+        "404BASIC": "404 Basic",
+        "404COVER": "404 Cover",
+        "404ALT": "404 Alt",
+        "500": "500",
+        "OFFLINE": "Offline Page"
+      }
+    },
+    "PAGES": {
+      "TEXT": "Pages",
+      "LIST": {
+        "STARTER": "Starter",
+        "PROFILE": "Profile",
+        "SIMPLEPAGE": "Simple Page",
+        "SETTINGS": "Settings",
+        "TEAM": "Team",
+        "TIMELINE": "Timeline",
+        "FAQS": "FAQs",
+        "PRICING": "Pricing",
+        "GALLERY": "Gallery",
+        "MAINTENANCE": "Maintenance",
+        "COMINGSOON": "Coming Soon",
+        "SITEMAP": "Sitemap",
+        "SEARCHRESULTS": "Search Results",
+        "PRIVACYPOLICY": "Privacy Policy",
+        "TERMS&CONDITIONS": "Term & Conditions",
+        "BLOG": "Blog",
+        "BLOGLIST": "List View",
+        "BLOGOVERVIEW": "Overview",
+        "BLOGGRID": "Grid View"
+      }
+    },
+    "LANDING": {
+      "TEXT": "Landing",
+      "LIST": {
+        "ONEPAGE": "One Page",
+        "NFTLANDING": "NFT Landing",
+        "JOB": "Job"
+      }
+    },
+    "COMPONENTS": {
+      "TEXT": "Components"
+    },
+    "BASEUI": {
+      "TEXT": "Base UI",
+      "LIST": {
+        "ALERTS": "Alerts",
+        "BADGES": "Badges",
+        "BUTTONS": "Buttons",
+        "COLORS": "Colors",
+        "CARDS": "Cards",
+        "CAROUSEL": "Carousel",
+        "DROPDOWNS": "Dropdowns",
+        "GRID": "Grid",
+        "IMAGES": "Images",
+        "TABS": "Tabs",
+        "ACCORDION&COLLAPSE": "Accordion & Collapse",
+        "MODALS": "Modals",
+        "OFFCANVAS": "Offcanvas",
+        "PLACEHOLDERS": "Placeholders",
+        "PROGRESS": "Progress",
+        "NOTIFICATIONS": "Notifications",
+        "MEDIAOBJECT": "Media object",
+        "EMBEDVIDEO": "Embed Video",
+        "TYPOGRAPHY": "Typography",
+        "LISTS": "Lists",
+        "LINKS": "Links",
+        "GENERAL": "General",
+        "RIBBONS": "Ribbons",
+        "UTILITIES": "Utilities"
+      }
+    },
+    "ADVANCEUI": {
+      "TEXT": "Advance UI",
+      "LIST": {
+        "SWEETALERTS": "Sweet Alerts",
+        "NESTABLELIST": "Nestable List",
+        "SCROLLBAR": "Scrollbar",
+        "ANIMATION": "Animation",
+        "TOUR": "Tour",
+        "SWIPERSLIDER": "Swiper Slider",
+        "RATTINGS": "Ratings",
+        "HIGHLIGHT": "Highlight",
+        "SCROLLSPY": "ScrollSpy"
+      }
+    },
+    "WIDGETS": {
+      "TEXT": "Widgets"
+    },
+    "FORMS": {
+      "TEXT": "Forms",
+      "LIST": {
+        "BASICELEMENTS": "Basic Elements",
+        "FORMSELECT": "Form Select",
+        "CHECKBOXS&RADIOS": "Checkboxs & Radios",
+        "PICKERS": "Pickers",
+        "INPUTMASKS": "Input Masks",
+        "ADVANCED": "Advanced",
+        "RANGESLIDER": "Range Slider",
+        "VALIDATION": "Validation",
+        "WIZARD": "Wizard",
+        "EDITORS": "Editors",
+        "FILEUPLOADS": "File Uploads",
+        "FORMLAYOUTS": "Form Layouts"
+      }
+    },
+    "TABLES": {
+      "TEXT": "Tables",
+      "LIST": {
+        "BASICTABLES": "Basic Tables",
+        "GRIDJS": "Grid Js",
+        "LISTJS": "List Js",
+        "DATATABLES": "Datatables"
+      }
+    },
+    "CHARTS": {
+      "TEXT": "Charts",
+      "LIST": {
+        "APEXCHARTS": "Apexcharts",
+        "LINE": "Line",
+        "AREA": "Area",
+        "COLUMN": "Column",
+        "BAR": "Bar",
+        "MIXED": "Mixed",
+        "TIMELINE": "Timeline",
+        "RANGEAREA": "Range Area",
+        "FUNNEL": "Funnel",
+        "SLOPE": "Slope",
+        "CANDLSTICK": "Candlstick",
+        "BOXPLOT": "Boxplot",
+        "BUBBLE": "Bubble",
+        "SCATTER": "Scatter",
+        "HEATMAP": "Heatmap",
+        "TREEMAP": "Treemap",
+        "PIE": "Pie",
+        "RADIALBAR": "Radialbar",
+        "RADAR": "Radar",
+        "POLARAREA": "Polar Area",
+        "CHARTJS": "Chartjs",
+        "ECHARTS": "Echarts"
+      }
+    },
+    "ICONS": {
+      "TEXT": "Icons",
+      "LIST": {
+        "REMIX": "Remix",
+        "BOXICONS": "Boxicons",
+        "MATERIALDESIGN": "Material Design",
+        "LINEAWESOME": "Line Awesome",
+        "FEATHER": "Feather",
+        "CRYPTOSVG": "Crypto SVG"
+      }
+    },
+    "MAPS": {
+      "TEXT": "Maps",
+      "LIST": {
+        "GOOGLE": "Google",
+        "VECTOR": "Vector",
+        "LEAFLET": "Leaflet"
+      }
+    },
+    "MULTILEVEL": {
+      "TEXT": "Multi Level",
+      "LIST": {
+        "LEVEL1": {
+          "1": "Level 1.1",
+          "2": "Level 1.2",
+          "LEVEL2": {
+            "1": "Level 2.1",
+            "2": "Level 2.2"
+          }
+        }
+      }
+    }
+  },
+
+  "general": {
+    "message": {
+      "successProccess": "Process completed successfully",
+      "failProccess": "Process failed",
+      "NotFound": "Not found",
+      "successLogin": "Logged in successfully",
+      "filedIdRequired": "This field is required",
+      "areyouSureDelete": "Are you sure you want to delete?"
+    },
+    "table": {
+      "name": "Name",
+      "isActive": "Is Active",
+      "lastModificationTime": "Last Modified",
+      "pFrom": "From",
+      "item": "Item",
+      "search": "Search",
+      "noData": "No data available",
+      "sort": "Sort",
+      "log": "Log",
+      "filter": "Filter",
+      "notSelect": "No Select"
+    },
+    "action": {
+      "register": "Register",
+      "edit": "Edit",
+      "save": "Save",
+      "delete": "Delete",
+      "close": "Close",
+      "filter": "Filter"
+    }
+  },
+  "layout": {
+    "sidebar": {
+      "new": "New",
+      "tasks": "Daily Tasks",
+      "hr": "Human Resources",
+      "client": "Client Management",
+      "orders": "Order Management",
+      "marketing": "Marketing Management",
+      "finance": "Finance",
+      "security": "User Management",
+      "basicData": "Basic Data",
+      "messages": "Internal Messages"
+    },
+    "topbar": {
+      "quickLinks": "Quick Links",
+      "newOrder": "New Order",
+      "logOut": "Logout",
+      "messages": "Internal Messages",
+      "profile": "My Profile",
+      "welcome": "Welcome"
+    }
+  },
+  "auth": {
+    "login": {
+      "username": "Username",
+      "password": "Password",
+      "signin": "Sign In"
+    }
+  },
+  "task": {
+    "tasklist": {
+      "title": "Daily Tasks  ",
+      "allTask": "All Tasks",
+      "complete": "Completed",
+      "review": "Review",
+      "inproccess": "In Progress",
+      "inTests": "In Tests",
+      "wait": "Not Started",
+      "subject": "Name",
+      "dateStart": "Due Date",
+      "dateEnd": "Date To",
+      "priority": "Priority",
+      "status": "Status",
+      "taskMasterAssignees": "Assigned To",
+      "id": "Task ID",
+      "low": "Low",
+      "meduim": "Medium",
+      "high": "High",
+      "urgent": "Urgent",
+      "notStart": "Not Started",
+      "inProgress": "In Progress",
+      "testing": "Testing",
+      "awatingFeddBack": "Awaiting Feedback",
+      "addNewTask": "New Task",
+      "titleOperation": "Task",
+      "taskMasterFollowers": "Followers",
+      "filter": "Filter",
+      "tasksList": "Tasks List",
+      "progress": "Completed",
+      "allTasks": "All Tasks",
+      "finished": "Finished"
+    },
+    "taskDetail": {
+      "title": "Task Details"
+    },
+    "todo": {
+      "title": "To do",
+      "assignUsers": "Assigned Users",
+      "members": "Members",
+      "add": "Add",
+      "cancel": "cancel",
+      "assigned": "Assigned",
+      "creatTask": "Creat Task",
+      "subject": "Subject",
+      "close": "Close",
+      "save": "Save",
+      "status": "Status",
+      "trackTask": "Track Task",
+      "timeTracking": "Time Tracking",
+      "creationTime": "Creation Time",
+      "stop": "Stop",
+      "start": "Start",
+      "tasksNo": "Tasks No",
+      "tasksTitle": "Tasks Title",
+      "priority": "Priority",
+      "dueDate": "DueDate",
+      "assignedTo": "Assigned To",
+      "assignedMember": "Assigned Member",
+      "followerMember": "Follower Member",
+      "taskMasterFollower": "Follower Members",
+      "actions": "Actions",
+      "taskName": "Task Name",
+      "dateVisit": "Date Visit",
+      "orderId": "Order Id",
+      "statusName": "Status Name",
+      "inProgress": "In Progress",
+      "finished": "Finished",
+      "finishedAnother": "Finished Another",
+      "notStart": "Not Start",
+      "finishTask": "Finish Task",
+      "orderNotFound": "Order Not Found",
+      "dateStart": "Period",
+      "followerTo": "Follower To",
+      "hr": "H",
+      "min": "Min",
+      "sort": "Sort",
+      "byID": "By ID",
+      "byName": "By Name",
+      "allTasks": "All Tasks",
+      "assignAnother": "Finihed Another",
+      "addTasks": "Add Tasks",
+      "reAssignUsers": "Re_Assign Users",
+      "assign": "Assign"
+    },
+    "jobSchedule": {
+      "title": "Task Schedule",
+      "titleOperation": "Schedule",
+      "Daily": "Daily",
+      "Hourly": "Hourly",
+      "Weekly": "Weekly",
+      "SpecificTime": "Specific Time",
+      "OneTime": "OneTime",
+      "Cron": "Cron",
+      "jobName": "Job Name",
+      "Date": "Date",
+      "jobType": "Job Type",
+      "lastRunDateTime": "Last Run Time",
+      "runAtSpecificTime": "Run  Specific Time",
+      "addNew": "Add New Job",
+      "shiftName": "Shift"
+    }
+  },
+  "hr": {
+    "employee": {
+      "title": "Employees",
+      "titleOperation": "Employee",
+      "employeeName": "Name",
+      "mobile": "Mobile",
+      "employeeTypeName": "Employee Type",
+      "employeeGroupName": "Employee Group",
+      "employeeTeam": "Employee Team",
+      "managment": "Managment",
+      "customerService": "Customer Service",
+      "employeeType": "Employee Type",
+      "email": "Email",
+      "newEmployee": "New Employee",
+      "allEmployee": "All Employees",
+      "active": "Active",
+      "noActive": "No Active",
+      "isActive": "Status"
+    },
+    "team": {
+      "title": "Teams"
+    },
+    "teamEmployee": {
+      "title": "Employee Teams"
+    },
+    "workTime": {
+      "title": "Work Schedules"
+    },
+    "taskShift": {
+      "title": "Daily Task Shifts",
+      "titleOperation": "Shift",
+      "addNewShift": "Add New Shift",
+      "times": "Work Times",
+      "assignUsers": "Task Employees",
+      "maxTaskForEmployee": "Max Task (Employee)",
+      "shiftFollowers": "Shift Followers"
+    },
+    "employeeHoliday": {
+      "title": "Holidays",
+      "titleOperation": "Holiday",
+      "employees": "Employee",
+      "date": "Date",
+      "note": "Note",
+      "addNewHoliday": "New Holiday",
+      "employeeName": "Employee",
+      "shiftFrom": "Shift From",
+      "shiftTo": "Shift To",
+      "dateFrom": "Date From",
+      "dateTo": "Date To"
+    },
+    "employeeChangeShift": {
+      "title": "  Shift Changes",
+      "titleOperation": "Shift ",
+      "addNew": "add New "
+    }
+  },
+  "clientManagement": {
+    "client": {
+      "title": "Clients"
+    }
+  },
+  "orderManagement": {
+    "order": {
+      "allOrder": "All Orders",
+      "newOrder": "New Orders"
+    }
+  },
+  "marketingManagement": {
+    "marketingCampaigns": {
+      "title": "Marketing Campaigns"
+    }
+  },
+  "messages": {
+    "mailbox": {
+      "title": "Inbox"
+    }
+  },
+  "financeManagement": {
+    "expensesCategory": {
+      "title": "Expense Categories"
+    },
+    "expenses": {
+      "title": "Expenses"
+    },
+    "paymentType": {
+      "title": "Payment Methods"
+    }
+  },
+  "securityManagement": {
+    "user": {
+      "title": "Users",
+      "Admin": "Admin",
+      "OperationSupervisor": "Operation Supervisor",
+      "TeamLeader": "Team Leader",
+      "SalesMarketingSupervisor": "Sales Marketing Supervisor",
+      "HRManager": "HR Manager",
+      "SalesMarketingSpecialist": "Sales Marketing Specialist",
+      "Marketing": "Marketing",
+      "Accountant": "Accountant",
+      "Other": "Other"
+    },
+    "role": {
+      "title": "Roles"
+    }
+  },
+  "basicData": {
+    "city": {
+      "title": "Cities"
+    },
+    "returnReason": {
+      "title": "Return Reasons"
+    },
+    "cancelReason": {
+      "title": "Cancellation Reasons"
+    },
+    "service": {
+      "title": "Services"
+    },
+    "channel": {
+      "title": "Channels"
+    },
+    "generalSetting": {
+      "title": "Setting",
+      "tasks": "Daily Tasks",
+      "orders": "Orders",
+      "taskPerfix": "Task Perfix",
+      "orderPerfix": "Order Perfix"
+    }
+  }
+}
