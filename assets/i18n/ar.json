@@ -322,7 +322,11 @@
       "save": "حفظ",
       "delete": "حذف",
       "close": "إغلاق",
-      "filter": "تصفية"
+      "filter": "فلاتر ابحث ",
+      "clear": "مسح",
+      "export": "  تصدير",
+      "xlxs": "    تصدير xlsx",
+      "search": "بحث"
     }
   },
   "layout": {
@@ -344,7 +348,11 @@
       "logOut": "تسجيل الخروج",
       "messages": "الرسائل الداخلية",
       "profile": "ملفي الشخصي",
-      "welcome": "مرحبًا"
+      "welcome": "مرحبًا",
+      "notifications": "الإشعارات",
+      "new": "جديد",
+      "alerts": "التنبيهات",
+      "markALLSee": "رؤيه الكل"
     }
   },
   "auth": {
@@ -356,7 +364,7 @@
   },
   "task": {
     "tasklist": {
-      "title": "سجل المهام اليومية",
+      "title": "  المهام اليومية",
       "allTask": "جميع المهام",
       "complete": "مكتملة",
       "review": "قيد المراجعة",
@@ -364,8 +372,8 @@
       "inTests": "في الاختبارات",
       "wait": "لم تبدأ",
       "subject": "الاسم",
-      "dateStart": "تاريخ الاستحقاق",
-      "dateEnd": "تاريخ الانتهاء",
+      "dateStart": "تاريخ  البداية",
+      "dateEnd": "تاريخ الاستحقاق",
       "priority": "الأولوية",
       "status": "الحالة",
       "taskMasterAssignees": "المكلفون",

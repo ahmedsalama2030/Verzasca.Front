@@ -326,7 +326,11 @@
       "save": "Save",
       "delete": "Delete",
       "close": "Close",
-      "filter": "Filter"
+      "filter": "Filter",
+      "clear": "Clear",
+      "export": "Export",
+      "xlxs": "Export  xlsx",
+      "search": "Search"
     }
   },
   "layout": {
@@ -348,7 +352,11 @@
       "logOut": "Logout",
       "messages": "Internal Messages",
       "profile": "My Profile",
-      "welcome": "Welcome"
+      "welcome": "Welcome",
+      "notifications": "Notifications",
+      "new": "New",
+      "alerts": "Alerts",
+      "markALLSee": "Mark ALL Read"
     }
   },
   "auth": {
@@ -368,8 +376,8 @@
       "inTests": "In Tests",
       "wait": "Not Started",
       "subject": "Name",
-      "dateStart": "Due Date",
-      "dateEnd": "Date To",
+      "dateStart": "Start Date",
+      "dateEnd": "Due Date",
       "priority": "Priority",
       "status": "Status",
       "taskMasterAssignees": "Assigned To",
