@@ -449,7 +449,9 @@
       "assignAnother": "Finihed Another",
       "addTasks": "Add Tasks",
       "reAssignUsers": "Re_Assign Users",
-      "assign": "Assign"
+      "assign": "Assign",
+      "taskPeriod": "Task Time",
+      "assignTo": "Assign To"
     },
     "jobSchedule": {
       "title": "Task Schedule",
@@ -457,6 +459,7 @@
       "Daily": "Daily",
       "Hourly": "Hourly",
       "Weekly": "Weekly",
+      "Monthly": "Monthly",
       "SpecificTime": "Specific Time",
       "OneTime": "OneTime",
       "Cron": "Cron",

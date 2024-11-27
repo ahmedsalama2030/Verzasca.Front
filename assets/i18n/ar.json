@@ -445,7 +445,9 @@
       "assignAnother": "إنهاء أخرى",
       "addTasks": "إضافة مهام",
       "reAssignUsers": "إعادة تخصيص المستخدمين",
-      "assign": "تخصيص"
+      "assign": "تخصيص",
+      "taskPeriod": "مده المهمة",
+      "assignTo": "تعيين إلى"
     },
     "jobSchedule": {
       "title": "جدولة المهام",
@@ -453,6 +455,8 @@
       "Daily": "يوميًا",
       "Hourly": "كل ساعة",
       "Weekly": "أسبوعيًا",
+      "Monthly": "شهريا",
+
       "SpecificTime": "وقت محدد",
       "OneTime": "مرة واحدة",
       "Cron": "كرون",
