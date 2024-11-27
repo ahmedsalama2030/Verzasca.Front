@@ -452,13 +452,13 @@
     "jobSchedule": {
       "title": "جدولة المهام",
       "titleOperation": "الجدولة",
-      "Daily": "يوميًا",
+      "Daily": "مرة واحدة",
       "Hourly": "كل ساعة",
       "Weekly": "أسبوعيًا",
       "Monthly": "شهريا",
 
       "SpecificTime": "وقت محدد",
-      "OneTime": "مرة واحدة",
+      "OneTime": "يوميًا",
       "Cron": "كرون",
       "jobName": "اسم المهمة",
       "Date": "التاريخ",
