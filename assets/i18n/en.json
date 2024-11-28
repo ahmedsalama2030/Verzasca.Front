@@ -330,7 +330,9 @@
       "clear": "Clear",
       "export": "Export",
       "xlxs": "Export  xlsx",
-      "search": "Search"
+      "pdf": "Export  Pdf",
+      "search": "Search",
+      "addNew": "Add New"
     }
   },
   "layout": {
@@ -456,12 +458,12 @@
     "jobSchedule": {
       "title": "Task Schedule",
       "titleOperation": "Schedule",
-      "Daily": "OneTime",
+      "Daily": "Daily",
       "Hourly": "Hourly",
       "Weekly": "Weekly",
       "Monthly": "Monthly",
       "SpecificTime": "Specific Time",
-      "OneTime": "Daily",
+      "OneTime": "OneTime",
       "Cron": "Cron",
       "jobName": "Job Name",
       "Date": "Date",
@@ -469,7 +471,8 @@
       "lastRunDateTime": "Last Run Time",
       "runAtSpecificTime": "Run  Specific Time",
       "addNew": "Add New Job",
-      "shiftName": "Shift"
+      "shiftName": "Shift",
+      "recurringIntervals": "Every (default=1)"
     }
   },
   "hr": {
@@ -489,7 +492,19 @@
       "allEmployee": "All Employees",
       "active": "Active",
       "noActive": "No Active",
-      "isActive": "Status"
+      "isActive": "Status",
+      "basicInfo": "Basic Info",
+      "dayWork": "Days Works",
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "thursday": "Thursday",
+      "saturday": "Saturday",
+      "friday": "Friday",
+      "wednesday": "Wednesday",
+      "editEmployee": "Edit Employee",
+      "addEmployee": "Add Employee",
+      "dayOff": "Day Off"
     },
     "team": {
       "title": "Teams"
@@ -578,6 +593,9 @@
     }
   },
   "basicData": {
+    "setupData": {
+      "title": "Setup Data"
+    },
     "city": {
       "title": "Cities"
     },
@@ -587,14 +605,19 @@
     "cancelReason": {
       "title": "Cancellation Reasons"
     },
+
     "service": {
       "title": "Services"
+    },
+    "serviceType": {
+      "title": "Service Types",
+      "titleOperation": "Service Type"
     },
     "channel": {
       "title": "Channels"
     },
     "generalSetting": {
-      "title": "Setting",
+      "title": "General Setting",
       "tasks": "Daily Tasks",
       "orders": "Orders",
       "taskPerfix": "Task Perfix",

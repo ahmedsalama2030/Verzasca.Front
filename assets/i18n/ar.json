@@ -326,7 +326,10 @@
       "clear": "مسح",
       "export": "  تصدير",
       "xlxs": "    تصدير xlsx",
-      "search": "بحث"
+      "pdf": " تصدير pdf",
+
+      "search": "بحث",
+      "addNew": "إضافة جديد"
     }
   },
   "layout": {
@@ -452,13 +455,13 @@
     "jobSchedule": {
       "title": "جدولة المهام",
       "titleOperation": "الجدولة",
-      "Daily": "مرة واحدة",
+      "Daily": "يوميًا",
       "Hourly": "كل ساعة",
       "Weekly": "أسبوعيًا",
       "Monthly": "شهريا",
 
       "SpecificTime": "وقت محدد",
-      "OneTime": "يوميًا",
+      "OneTime": "مرة واحدة",
       "Cron": "كرون",
       "jobName": "اسم المهمة",
       "Date": "التاريخ",
@@ -466,7 +469,8 @@
       "lastRunDateTime": "آخر تشغيل",
       "runAtSpecificTime": "تشغيل في وقت محدد",
       "addNew": "  مهمة جديدة",
-      "shiftName": "الشفت"
+      "shiftName": "الشفت",
+      "recurringIntervals": "كل (افتراضى1)"
     }
   },
   "hr": {
@@ -486,7 +490,19 @@
       "allEmployee": "جميع الموظفين",
       "active": "نشط",
       "noActive": "غير نشط",
-      "isActive": "الحالة"
+      "isActive": "الحالة",
+      "basicInfo": "البيانات الاساسية",
+      "dayWork": "أيام العمل",
+      "sunday": "الأحد",
+      "monday": "الاثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة",
+      "saturday": "السبت",
+      "editEmployee": "تعديل موظف",
+      "addEmployee": "إضافة موظف",
+      "dayOff": "أيام العطلات"
     },
     "team": {
       "title": "الفرق"
@@ -575,6 +591,9 @@
     }
   },
   "basicData": {
+    "setupData": {
+      "title": "البيانات الاساسية"
+    },
     "city": {
       "title": "المدن"
     },
@@ -583,6 +602,10 @@
     },
     "cancelReason": {
       "title": "أسباب الإلغاء"
+    },
+    "serviceType": {
+      "title": "أنواع الخدمات",
+      "titleOperation": "نوع خدمة"
     },
     "service": {
       "title": "الخدمات"
