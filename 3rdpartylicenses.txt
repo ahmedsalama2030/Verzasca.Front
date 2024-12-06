@@ -2292,6 +2292,9 @@ SOFTWARE.
 ngx-pipes
 MIT
 
+ngx-simple-crypt
+ISC
+
 ngx-slick-carousel
 MIT
 

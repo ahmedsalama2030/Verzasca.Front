@@ -314,7 +314,9 @@
       "sort": "ترتيب",
       "log": "السجل",
       "filter": "تصفية",
-      "notSelect": "لم يتم التحديد"
+      "notSelect": "لم يتم التحديد",
+      "notes": "ملاحظات",
+      "all": "كل "
     },
     "action": {
       "register": "تسجيل",
@@ -329,19 +331,48 @@
       "pdf": " تصدير pdf",
 
       "search": "بحث",
-      "addNew": "إضافة جديد"
+      "addNew": "إضافة جديد",
+      "run": "تشغيل",
+      "back": "رجوع"
+    },
+    "permission": {
+      "view": "روية",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "register": "تسجيل",
+      "save": "حفظ",
+      "changeStatus": "تغيير الحالة",
+      "changeText": "تغيير النص",
+      "setDefault": "هل افتراضى",
+      "assignPermission": "إضافى لاذن",
+      "search": "بحث",
+      "serachadvanced": "بحث متقدم",
+      "openreport": "فتح التقرير",
+      "changePassword": "تغيير كلمة المرور",
+      "loginAs": "الدخول ك",
+      "unUserLock": "الغاء القفل",
+      "addField": " اضافة حقل",
+      "advancedSearch": "بحث متقدم",
+      "addToLanguages": "تحديث اللغة",
+      "print": "طباعة",
+      "lightMode": "الوضع المضى",
+      "addGallary": "إضافى صور",
+      "userLock": "قفل مستخدم",
+      "resetPassword": "تغيير كلمة المرور",
+      "export": "تصدير"
     }
   },
   "layout": {
     "sidebar": {
       "new": "جديد",
-      "tasks": "المهام اليومية",
+      "task": "المهام اليومية",
       "hr": "الموارد البشرية",
       "client": "إدارة العملاء",
       "orders": "إدارة الطلبات",
       "marketing": "إدارة التسويق",
       "finance": "المالية",
       "security": "إدارة المستخدمين",
+      "securityManagement": "إدارة المستخدمين",
       "basicData": "البيانات الأساسية",
       "messages": "الرسائل الداخلية"
     },
@@ -470,7 +501,25 @@
       "runAtSpecificTime": "تشغيل في وقت محدد",
       "addNew": "  مهمة جديدة",
       "shiftName": "الشفت",
-      "recurringIntervals": "كل (افتراضى1)"
+      "recurringIntervals": "كل (افتراضى1)",
+      "days": "الايام",
+      "Sunday": "الأحد",
+      "Monday": "الاثنين",
+      "Tuesday": "الثلاثاء",
+      "Wednesday": "الأربعاء",
+      "Thursday": "الخميس",
+      "Friday": "الجمعة",
+      "Saturday": "السبت",
+      "runTask": "هل انت متاكد من تشغل الجدولة"
+    },
+    "taskShift": {
+      "title": "شفتات المهام اليومية",
+      "titleOperation": "الشفت",
+      "addNewShift": "إضافة شفت جديد",
+      "times": "أوقات العمل",
+      "assignUsers": "موظفو المهام",
+      "maxTaskForEmployee": "أقصى عدد مهام (للموظف)",
+      "shiftFollowers": "متابعو الشفت"
     }
   },
   "hr": {
@@ -505,7 +554,12 @@
       "dayOff": "أيام العطلات"
     },
     "team": {
-      "title": "الفرق"
+      "title": "الفرق",
+      "titleOperation": "فرقة",
+      "cityName": "المدينة",
+      "categoryName": "فئات الخدمات",
+      "workTimeName": "الاوقات ",
+      "dayOff": "أيم العطلات "
     },
     "teamEmployee": {
       "title": "فرق الموظفين"
@@ -549,7 +603,29 @@
   "orderManagement": {
     "order": {
       "allOrder": "جميع الطلبات",
-      "newOrder": "طلبات جديدة"
+      "newOrder": "طلبات جديدة",
+      "map": "خرايطه طلبات (الفرق)",
+      "pending": "إنتظار",
+      "finish": "إنهاء",
+      "cancelled": "إلغاء",
+      "orderCode": "الكود",
+      "createdDate": "تارخ الانشاء",
+      "creationUser": "  المنشى",
+      "cityName": "المدينة",
+      "districtName": "المنطقة",
+      "status": "الحالة",
+      "agentName": "العميل",
+      "channelName": "القنوات",
+      "mobile": "رقم الجوال",
+      "assignTo": "اسناد الى ",
+      "visitDate": "تاريخ الزيارة",
+      "workTimes": "الاوقات",
+      "services": "الخدمات",
+      "nothing": "لا يوجد",
+      "cancel": "إلغاء",
+      "reopen": "إعادة فتح",
+      "free": "مجانى",
+      "finished": "منتهى"
     }
   },
   "marketingManagement": {
@@ -584,24 +660,69 @@
       "SalesMarketingSpecialist": "اختصاصي مبيعات وتسويق",
       "Marketing": "التسويق",
       "Accountant": "محاسب",
-      "Other": "أخرى"
+      "Other": "أخرى",
+      "userCode": "الكود",
+      "userTypeName": "النوع",
+      "employeeCode": "كود الموظف",
+      "lastLogin": "أخر دخول",
+      "loginAs": "الدخول ك",
+      "changePassword": "تغيير كلمة المرور",
+      "name": "الإسم",
+      "mobile": "الجوال",
+      "userName": "إسم المستخدم",
+      "employeeName": "إسم الموظفس",
+      "userType": "نوع المستخدم",
+      "roleName": "الصلاحية",
+      "basicInfo": "البيانات الاساسية",
+      "password": "كلمة المرور",
+      "editUser": "تعديل مستخدم",
+      "addUser": "إضافة مستخدم",
+      "roles": "الصلاحية",
+      "rePassword": "إعادة كلمة المرور",
+      "resetPassword": "تغيير كلمة المرور",
+      "rePasswordAndPasswordNotEqual": "كلمة المرور غير متطابقتين",
+      "active": "نشط",
+      "noActive": "غير نشط"
     },
     "role": {
-      "title": "الأدوار"
+      "title": "صلاحية",
+      "titleOperation": "الصلاحية",
+      "nameDb": "الاسم (db)"
+    },
+    "permission": {
+      "title": "الصلاحيات",
+      "titleOperation": "الصلاحية",
+      "updatePermission": "تعديل الصلاحية"
     }
   },
   "basicData": {
+    "whatsAppSetting": {
+      "title": "إعدادت الواتس اب"
+    },
+    "emailSetting": {
+      "title": "إعدادت الايميل"
+    },
+
     "setupData": {
       "title": "البيانات الاساسية"
     },
     "city": {
-      "title": "المدن"
+      "title": "المدن",
+      "titleOperation": "مدينة",
+      "lat": "Lat",
+      "lng": "Lng",
+      "radius": "Radius",
+      "districts": "المناطق",
+      "district": "منطقة",
+      "addCity": "إضافة مدينة",
+      "addDistrict": "إضافة منطقة"
     },
     "returnReason": {
       "title": "أسباب الإرجاع"
     },
     "cancelReason": {
-      "title": "أسباب الإلغاء"
+      "title": "أسباب الإلغاء",
+      "titleOperation": "سبب إلغاء"
     },
     "serviceType": {
       "title": "أنواع الخدمات",
@@ -610,8 +731,24 @@
     "service": {
       "title": "الخدمات"
     },
+    "serviceCategory": {
+      "title": "الفئات",
+      "titleOperation": "فئة",
+      "services": "الخدمات",
+      "service": "خدمة",
+      "addServiceCategory": "إضافة فئة",
+      "addService": "إضافة خدمة",
+      "price": "السعر",
+      "serviceTypeCode": "نوع الخدمة",
+      "timeCount": "عدد لمواعيد",
+      "description": "الوصف",
+      "isMostWanted": "الاكثر طلباً"
+    },
     "channel": {
-      "title": "القنوات"
+      "title": "القنوات",
+      "symbol": "الرمز",
+      "siteUrl": "اللينك",
+      "titleOperation": "قناة"
     },
     "generalSetting": {
       "title": "الإعدادات",

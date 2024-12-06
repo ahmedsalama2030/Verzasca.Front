@@ -318,7 +318,11 @@
       "sort": "Sort",
       "log": "Log",
       "filter": "Filter",
-      "notSelect": "No Select"
+      "notSelect": "No Select",
+      "notes": "Notes",
+      "active": "Active",
+      "noActive": "No Active",
+      "all": "All"
     },
     "action": {
       "register": "Register",
@@ -332,19 +336,50 @@
       "xlxs": "Export  xlsx",
       "pdf": "Export  Pdf",
       "search": "Search",
-      "addNew": "Add New"
+      "addNew": "Add New",
+      "back": "Back",
+      "run": "Run"
+    },
+
+    "permission": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "register": "Register",
+      "save": "Save",
+      "changeStatus": "Change Status",
+      "changeText": "Change Text",
+      "setDefault": "Set as Default",
+      "assignPermission": "Assign Permission",
+      "search": "Search",
+      "serachadvanced": "Advanced Search",
+      "openreport": "Open Report",
+      "changePassword": "Change Password",
+      "loginAs": "Login As",
+      "unUserLock": "Unlock User",
+      "addField": "Add Field",
+      "advancedSearch": "Advanced Search",
+      "addToLanguages": "Update Language",
+      "print": "Print",
+      "lightMode": "Light Mode",
+      "addGallary": "Add Gallery",
+      "userLock": "Lock User",
+      "resetPassword": "Reset Password",
+      "export": "Export"
     }
   },
   "layout": {
     "sidebar": {
       "new": "New",
-      "tasks": "Daily Tasks",
+      "task": "Daily Tasks",
       "hr": "Human Resources",
       "client": "Client Management",
       "orders": "Order Management",
       "marketing": "Marketing Management",
       "finance": "Finance",
-      "security": "User Management",
+      "security": "security Management",
+      "securityManagement": "Security Management",
+
       "basicData": "Basic Data",
       "messages": "Internal Messages"
     },
@@ -472,7 +507,25 @@
       "runAtSpecificTime": "Run  Specific Time",
       "addNew": "Add New Job",
       "shiftName": "Shift",
-      "recurringIntervals": "Every (default=1)"
+      "recurringIntervals": "Repeat (default=1)",
+      "days": "Days",
+      "Sunday": "Sunday",
+      "Monday": "Monday",
+      "Tuesday": "Tuesday",
+      "Thursday": "Thursday",
+      "Saturday": "Saturday",
+      "Wednesday": "Wednesday",
+      "Friday": "Friday",
+      "runTask": "Are you sure run   schedule"
+    },
+    "taskShift": {
+      "title": "Daily Task Shifts",
+      "titleOperation": "Shift",
+      "addNewShift": "Add New Shift",
+      "times": "Work Times",
+      "assignUsers": "Task Employees",
+      "maxTaskForEmployee": "Max Task (Employee)",
+      "shiftFollowers": "Shift Followers"
     }
   },
   "hr": {
@@ -507,13 +560,20 @@
       "dayOff": "Day Off"
     },
     "team": {
-      "title": "Teams"
+      "title": "Teams",
+      "titleOperation": "Team",
+
+      "cityName": "city Name",
+      "categoryName": "Category Name",
+      "workTimeName": "Work Time  ",
+      "dayOff": "Days Off"
     },
     "teamEmployee": {
       "title": "Employee Teams"
     },
     "workTime": {
-      "title": "Work Schedules"
+      "title": "Work Times",
+      "titleOperation": "Work Time"
     },
     "taskShift": {
       "title": "Daily Task Shifts",
@@ -550,8 +610,32 @@
   },
   "orderManagement": {
     "order": {
+      "title": "Orders",
+      "titleOperation": "Order",
       "allOrder": "All Orders",
-      "newOrder": "New Orders"
+      "newOrder": "New Orders",
+      "map": "Order Map",
+      "pending": "Pending",
+      "cancelled": "Cancelled",
+      "orderCode": "code",
+      "createdDate": "created Date",
+      "creationUser": "creation User",
+      "cityName": "city  ",
+      "districtName": "district",
+      "status": "status",
+      "agentName": "Agent",
+      "channelName": "channel",
+      "mobile": "Mobile",
+      "assignTo": "AssignTo",
+      "visitDate": "visitDate",
+      "workTimes": "WorkTimes",
+      "services": "Services",
+      "nothing": "No thing",
+      "cancel": "Cancel",
+      "finish": "Finish",
+      "reopen": "Re open",
+      "free": "Free",
+      "finished": "finished"
     }
   },
   "marketingManagement": {
@@ -586,24 +670,68 @@
       "SalesMarketingSpecialist": "Sales Marketing Specialist",
       "Marketing": "Marketing",
       "Accountant": "Accountant",
-      "Other": "Other"
+      "Other": "Other",
+      "userCode": "Code",
+      "userTypeName": "Type",
+      "employeeCode": "Emp Code",
+      "lastLogin": "Last Login",
+      "loginAs": "Login As",
+      "changePassword": "Reset Password",
+      "name": "Name",
+      "mobile": "Mobile",
+      "userName": "User Name",
+      "employeeName": "Emp Name",
+      "userType": "User Type",
+      "roleName": "Role Name",
+      "basicInfo": "Basic Info",
+      "password": "Password",
+      "editUser": "Edit User",
+      "addUser": "Add User",
+      "roles": "Role",
+      "rePassword": "Re Password",
+      "resetPassword": "Reset Password",
+      "rePasswordAndPasswordNotEqual": "re Password And Password Not Equal",
+      "active": "Active",
+      "noActive": "No Active"
     },
     "role": {
-      "title": "Roles"
+      "title": "Roles",
+      "titleOperation": "Role",
+      "nameDb": "Name Db"
+    },
+    "permission": {
+      "title": "Permissions",
+      "titleOperation": "Permission",
+      "updatePermission": "Permissions Update"
     }
   },
   "basicData": {
+    "whatsAppSetting": {
+      "title": "Whats App Settig"
+    },
+    "emailSetting": {
+      "title": "Email Setting"
+    },
     "setupData": {
       "title": "Setup Data"
     },
     "city": {
-      "title": "Cities"
+      "title": "Cities",
+      "titleOperation": "City",
+      "lat": "Lat",
+      "lng": "Lng",
+      "radius": "Radius",
+      "districts": "Districts",
+      "district": "District",
+      "addCity": "Add City",
+      "addDistrict": "Add District"
     },
     "returnReason": {
       "title": "Return Reasons"
     },
     "cancelReason": {
-      "title": "Cancellation Reasons"
+      "title": "Cancellation Reasons",
+      "titleOperation": "Cancellation Reason"
     },
 
     "service": {
@@ -613,8 +741,25 @@
       "title": "Service Types",
       "titleOperation": "Service Type"
     },
+    "serviceCategory": {
+      "title": "  Categories",
+      "titleOperation": "  Category",
+      "services": "Services",
+      "service": "Service",
+      "addServiceCategory": "Add Category",
+      "addService": "Add Service",
+      "price": "Price",
+      "serviceTypeCode": "Service Type",
+      "timeCount": "Time Count",
+      "description": "Description",
+      "isMostWanted": "Is Most Wanted"
+    },
+
     "channel": {
-      "title": "Channels"
+      "title": "Channels",
+      "symbol": "Symbol",
+      "siteUrl": "Site Url",
+      "titleOperation": "channel"
     },
     "generalSetting": {
       "title": "General Setting",
@@ -622,6 +767,21 @@
       "orders": "Orders",
       "taskPerfix": "Task Perfix",
       "orderPerfix": "Order Perfix"
+    }
+  },
+  "client": {
+    "client": {
+      "title": "Clients",
+      "titleOperation": "Client",
+      "mobile": "Mobile",
+      "cityName": "City",
+      "channelName": "Channel ",
+      "name": "Name",
+      "email": "Email",
+      "note": "Notes",
+      "editClient": "Edit Client",
+      "addClient": "Add Client",
+      "status": "Status"
     }
   }
 }
