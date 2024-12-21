@@ -41,7 +41,7 @@
     }
 
     .email-menu-sidebar-scroll {
-        height: calc(100vh - 295px);
+        height: calc(100vh - 200px);
 
         @media (max-width: 991.98px) {
             height: calc(100vh - 150px);
@@ -261,7 +261,6 @@
             background-color: var(--#{$prefix}light);
         }
 
-
         &.unread {
             color: var(--#{$prefix}body-color);
 
@@ -316,7 +315,6 @@
         }
     }
 }
-
 
 @media (max-width: 575.98px) {
     .message-list li .col-mail-1 {
@@ -393,7 +391,7 @@
             height: 100vh
         }
         .email-menu-sidebar-scroll{
-            height: calc(100vh - 330px);
+            height: calc(100vh - 290px);
             @media (max-width: 991.98px) {
                 height: calc(100vh - 150px)
             }

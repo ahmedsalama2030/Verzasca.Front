@@ -316,7 +316,10 @@
       "filter": "تصفية",
       "notSelect": "لم يتم التحديد",
       "notes": "ملاحظات",
-      "all": "كل "
+      "all": "كل ",
+      "nameAr": "الاسم بالعربية",
+      "nameEn": "الاسم بالانجليزية",
+      "creationTime": "وقت الإنشاء"
     },
     "action": {
       "register": "تسجيل",
@@ -374,7 +377,10 @@
       "security": "إدارة المستخدمين",
       "securityManagement": "إدارة المستخدمين",
       "basicData": "البيانات الأساسية",
-      "messages": "الرسائل الداخلية"
+      "messages": "الرسائل الداخلية",
+      "statistics": "الاحصائيات",
+      "crm": "إدارة علاقات العملاء (crm)",
+      "leads": "العملاء المحتملين"
     },
     "topbar": {
       "quickLinks": "روابط سريعة",
@@ -428,6 +434,20 @@
       "progress": "مكتمل",
       "allTasks": "كل المهام",
       "finished": "مكتملة"
+    },
+    "taskReport": {
+      "title": "إحصائيات المهمات",
+      "taskStatusTotal": "حاله المهمه / الاجمالى",
+      "taskUserTotal": "مهمام الموظفين / الاجمالى",
+      "taskUserDetail": "تفاصيل المهمات",
+      "taskMasterId": "معرف المهمه ",
+      "assignUser": "الموظف",
+      "date": "التاريخ",
+      "taskStatusName": "الحالة",
+      "dateStart": "تاريخ البداية",
+      "dateEnd": "تاريخ النهاية",
+      "userAssineeToName": "إنتهاء من موظف اخر",
+      "name": "العنوان"
     },
     "taskDetail": {
       "title": "تفاصيل المهمة"
@@ -602,9 +622,13 @@
   },
   "orderManagement": {
     "order": {
+      "title": "الطلبات",
+      "titlePending": "الطلبات المعلقة",
+      "titleRecall": "طلبات اعادة الاتصال",
       "allOrder": "جميع الطلبات",
       "newOrder": "طلبات جديدة",
       "map": "خرايطه طلبات (الفرق)",
+      "all": "كل الطلبات",
       "pending": "إنتظار",
       "finish": "إنهاء",
       "cancelled": "إلغاء",
@@ -625,7 +649,42 @@
       "cancel": "إلغاء",
       "reopen": "إعادة فتح",
       "free": "مجانى",
-      "finished": "منتهى"
+      "finished": "منتهى",
+      "serviceAfterSale": "خدمة ما بعد البيع",
+      "creationDate": "تاريخ الانشاء",
+      "finishedDate": "تاريخ الانتهاء",
+      "Recall": "إعادة الاتصال",
+      "RecallMessage": "هل انت متاكد من احالة الى معاودة الاتصال؟",
+      "callCounter": "عدد معاودة الاتصال",
+      "RecallMessageCount": "تم الاتصال بالعميل أكثر من",
+      "RecallMessageCount2": "سيتم تحويل الطلب للاستفسار.",
+      "times": "مرات",
+      "addOrders": "لإضافة طلب",
+      "editOrders": "تعديل طلب",
+      "orderType": "نوع الطلب",
+      "orderSource": "مصدر الطلب",
+      "clientName": "اسم العميل",
+      "phoneNumber": "رقم الجوال",
+      "CityName": "المدينة",
+      "name": "الاسم",
+      "DistrictName": "المنطقة",
+      "email": "البريد الالكتروني",
+      "HowYouKnowAboutUs": "كيف تعرفت علينا؟",
+      "PreviousOrders": "الطلبات السابقة",
+      "Code": "الكود",
+      "Status": "الحالة",
+      "AssignedTo": "مسند الى",
+      "VisitDate": "تاريخ الزيارة",
+      "VisitTime": "وقت الزيارة",
+      "OrderDetails": "تفاضيل الطلب",
+      "clientInfo": "معلومات العميل",
+      "serviceCategory": "فئة خدمة",
+      "service": "خدمة",
+      "price": "السعر",
+      "notes": "ملاحظات",
+      "noData": "لايوجد بيانات بالجدول حتى الان",
+      "extraDiscount": "خصم إضافي",
+      "actions": "اجراءات"
     }
   },
   "marketingManagement": {
@@ -696,8 +755,16 @@
     }
   },
   "basicData": {
+    "integrations": {
+      "title": "ريط api",
+      "titleOperation": "ربط api"
+    },
     "whatsAppSetting": {
-      "title": "إعدادت الواتس اب"
+      "title": "إعدادت الواتس اب",
+      "link": "اللينك",
+      "mobile": "رقم الجوال",
+      "password": "الباسورد",
+      "instanceId": "رقم instance Id"
     },
     "emailSetting": {
       "title": "إعدادت الايميل"
@@ -756,6 +823,150 @@
       "orders": "الطلبات",
       "taskPerfix": "بادئة المهام",
       "orderPerfix": "بادئة الطلبات"
+    },
+    "systemSchedule": {
+      "title": "جدوله النظام",
+      "tasks": "الموديل",
+      "task": "التاسكات",
+      "order": "الطلب",
+      "crm": "علاقات العملاء",
+      "taskShift": "شيفتات التاسكات",
+      "agentCareJob": "العملاء",
+      "assignOrderJob": "إسناد الطلبات ",
+      "campaignAgentsJob": "حمله تسوقيه",
+      "reviewJob": "تقييم الطلبات  ",
+      "moduleType": "النوع",
+      "eventSchedule": "الحدث",
+      "visitJob": "تاريخ الزيارة",
+      "parameter": "القيمه(الشيفت-الخ)"
+    }
+  },
+  "client": {
+    "client": {
+      "title": "العملاء",
+      "titleOperation": "عميل",
+      "mobile": "الموبيل",
+      "cityName": "المدينة",
+      "channelName": "المصدر ",
+      "name": "الاسم",
+      "email": "الايميل",
+      "note": "الملاحظات",
+      "editClient": "تعديل عميل",
+      "addClient": "إضافة عميل",
+      "status": "الحالة",
+      "profile": "ملف العميل"
+    }
+  },
+  "crm": {
+    "leads": {
+      "title": "العملاء المحتملين",
+      "titleOperation": "العملاء المحتملين",
+      "addLeads": "إضافة عملاء محتملين",
+      "editLeads": "تعديل عملاء محتملين",
+      "mobile": "الهاتف",
+      "cityName": "المدينة",
+      "channelName": "القناة ",
+      "leadType": "نوع العملاء المحتملين",
+      "name": "الإسم",
+      "email": "البريد الالكتروني",
+      "Proposed": "عميل مقترح",
+      "Inquiry": "عميل استفسار"
+    },
+    "serviceAfterSale": {
+      "title": "خدمة ما بعد البيع",
+      "titleOperation": "خدمة ما بعد البيع",
+      "addReview": "إضافة تقييم"
+    },
+    "reviewQuestion": {
+      "title": "أسئلة تقييم",
+      "titleOperation": "سؤال تقييم",
+      "isSendClient": "عرض على الموقع",
+      "sort": "الترتيب",
+      "answerType": "أنواع الإجابة",
+      "items": "العناصر (افصل بينهم بالفواصل)",
+      "point": "الدرجة"
+    },
+    "reviewAnswer": {
+      "title": "إجابة تقييم",
+      "titleOperation": "إجابة تقييم",
+      "answerType": "أنواع الإجابة",
+      "star": "نجم",
+      "checkBox": "مربع اختيار",
+      "text": "نص",
+      "point": "الدرجة",
+      "sort": "الترتيب"
+    },
+    "clientReview": {
+      "title": "تقييم العملاء",
+      "titleOperation": "سؤال تقييم",
+      "clientName": "اسم العميل",
+      "orderId": "رقم الطلب",
+      "clientReviewFinalResultNameAr": "نتيجة تقييم",
+      "note": "الملاحظات",
+      "clientPrice": "سعر الخدمة للعميل",
+      "mobile": "الجوال",
+      "questionName": "إسم السؤال",
+      "startStatusName": "حالة البداية ",
+      "endStatusName": "النتيجة النهائية",
+      "actionDoing": "الإجراء المتخذ",
+      "doAction": "الإجراء",
+      "orderPrice": "سعر الفعلى للخدمة"
+    },
+    "clientReviewPrice": {
+      "title": "مراجعه تقييم الاسعار",
+      "titleOperation": "مراجعه أسعار التقييم",
+      "match": "متساو",
+      "notMatch": "غير متساو",
+      "matchPrice": "متساو"
+    },
+    "clientReviewFinalResult": {
+      "title": "نتائج تقييم",
+      "titleOperation": "نتيجة تقييم",
+      "scoreFrom": "الدرجة من",
+      "scoreTo": "الدرجة إلى",
+      "color": "اللون"
+    },
+    "clientReviewActionDoing": {
+      "title": "نتائج  تقييم",
+      "titleOperation": "نتيجة تقييم"
+    },
+    "reviewstatistics": {
+      "title": "إحصائيات تقييم",
+      "titleOperation": "إحصائيات تقييم",
+      "qestionCount": "الاسئلة / العدد"
+    },
+    "crmSetting": {
+      "title": "إعدادات CRM",
+      "titleOperation": "إعدادات CRM"
+    }
+  },
+  "statistics": {
+    "orderReview": {
+      "title": "أحصائية تقييم الطلبات",
+      "titleOperation": "تقييم طلب",
+      "cities": "المدن",
+      "teams": "الفرق",
+      "dateReview": "التاريخ ",
+      "evaluationQualityService": "Evaluation Quality Service",
+      "areSatisfiedTeamTreatment": "Team treating you well?",
+      "howPunctualYou": "How punctual were you?",
+      "wouldLikeDealAgain": "Work with us again?"
+    },
+
+    "orderManager": {
+      "title": "تحليل الطلبات",
+      "titleOperation": "تحليل الطلبات",
+      "totalInvoices": "إجمالى الفواتير",
+      "totalOrder": "إجمالى الطلبات",
+      "avgValueOrder": "متوسط قيمه الطلب",
+      "avgTeamOrder": "متوسط الفريق",
+      "avgTimeOrder": "متوسط الموعد",
+      "orderForDays": "الطلبات / الايام",
+      "orderDaily": "الطلبات اليومية"
+    },
+    "orderDaily": {
+      "title": "الطلبات اليومية",
+      "titleOperation": "طلب يومى"
     }
   }
 }

@@ -322,7 +322,10 @@
       "notes": "Notes",
       "active": "Active",
       "noActive": "No Active",
-      "all": "All"
+      "all": "All",
+      "nameAr": "Arabic Name",
+      "nameEn": "English Name",
+      "creationTime": "Creation Time"
     },
     "action": {
       "register": "Register",
@@ -379,9 +382,11 @@
       "finance": "Finance",
       "security": "security Management",
       "securityManagement": "Security Management",
-
       "basicData": "Basic Data",
-      "messages": "Internal Messages"
+      "messages": "Internal Messages",
+      "statistics": "Statistics",
+      "crm": "CRM",
+      "leads": "Leads"
     },
     "topbar": {
       "quickLinks": "Quick Links",
@@ -435,6 +440,20 @@
       "progress": "Completed",
       "allTasks": "All Tasks",
       "finished": "Finished"
+    },
+    "taskReport": {
+      "title": "Task Report",
+      "taskStatusTotal": "Task Status / Total",
+      "taskUserTotal": "Task User / Total",
+      "taskUserDetail": "Task User Detail",
+      "taskMasterId": "# Task ",
+      "assignUser": "Assign User",
+      "date": "Date",
+      "taskStatusName": "Status Name",
+      "dateStart": "Date Start",
+      "dateEnd": "Date End",
+      "userAssineeToName": "Assinee Another",
+      "name": "Title"
     },
     "taskDetail": {
       "title": "Task Details"
@@ -504,7 +523,7 @@
       "Date": "Date",
       "jobType": "Job Type",
       "lastRunDateTime": "Last Run Time",
-      "runAtSpecificTime": "Run  Specific Time",
+      "runAtSpecificTime": "Run Time",
       "addNew": "Add New Job",
       "shiftName": "Shift",
       "recurringIntervals": "Repeat (default=1)",
@@ -611,31 +630,68 @@
   "orderManagement": {
     "order": {
       "title": "Orders",
+      "titlePending": "Pending Orders",
+      "titleRecall": "Recall Orders",
       "titleOperation": "Order",
-      "allOrder": "All Orders",
+      "allOrder": "  Orders",
       "newOrder": "New Orders",
       "map": "Order Map",
+      "all": "All Orders",
       "pending": "Pending",
       "cancelled": "Cancelled",
-      "orderCode": "code",
-      "createdDate": "created Date",
-      "creationUser": "creation User",
-      "cityName": "city  ",
-      "districtName": "district",
-      "status": "status",
+      "orderCode": "Code",
+      "createdDate": "Created Date",
+      "creationUser": "Creation User",
+      "districtName": "District",
+      "status": "Status",
       "agentName": "Agent",
-      "channelName": "channel",
+      "channelName": "Channel",
       "mobile": "Mobile",
-      "assignTo": "AssignTo",
-      "visitDate": "visitDate",
-      "workTimes": "WorkTimes",
+      "assignTo": "Assign To",
+      "visitDate": "visit Date",
+      "finishedDate": "Finished Date",
+      "workTimes": "Work Times",
       "services": "Services",
       "nothing": "No thing",
       "cancel": "Cancel",
       "finish": "Finish",
       "reopen": "Re open",
       "free": "Free",
-      "finished": "finished"
+      "finished": "finished",
+      "serviceAfterSale": "Service After Sale",
+      "creationDate": "Creation Date",
+      "Recall": "Recall",
+      "RecallMessage": "Are you sure you are converting the order to Recall?",
+      "callCounter": "Call Counter",
+      "RecallMessageCount": "The customer has been contacted more than",
+      "RecallMessageCount2": "The request will be forwarded for inquiry.",
+      "times": "times",
+      "addOrders": "Add Orders",
+      "editOrders": "Edit Orders",
+      "orderType": "Order Type",
+      "orderSource": "Order Source",
+      "clientName": "client Name",
+      "phoneNumber": "Phone Number",
+      "cityName": "City Name",
+      "name": "Name",
+      "DistrictName": "District Name",
+      "email": "Email",
+      "HowYouKnowAboutUs": "How You Know About Us",
+      "PreviousOrders": "Previous Orders",
+      "Code": "Code",
+      "Status": "Status",
+      "AssignedTo": "Assigned To",
+      "VisitDate": "Visit Date",
+      "VisitTime": "Visit Time",
+      "OrderDetails": "Order Details",
+      "clientInfo": "Client Info",
+      "serviceCategory": "Service Category",
+      "service": "Service",
+      "price": "Price",
+      "notes": "Notes",
+      "noData": "There is no data in the table yet.",
+      "extraDiscount": "Extra Discount",
+      "actions": "Actions"
     }
   },
   "marketingManagement": {
@@ -706,8 +762,16 @@
     }
   },
   "basicData": {
+    "integrations": {
+      "title": "Api & Keys",
+      "titleOperation": "Api & Keys"
+    },
     "whatsAppSetting": {
-      "title": "Whats App Settig"
+      "title": "Whats App Setting",
+      "link": "Link",
+      "mobile": "Mobile",
+      "password": "Password",
+      "instanceId": "Instance Id"
     },
     "emailSetting": {
       "title": "Email Setting"
@@ -767,6 +831,22 @@
       "orders": "Orders",
       "taskPerfix": "Task Perfix",
       "orderPerfix": "Order Perfix"
+    },
+    "systemSchedule": {
+      "title": "System Schedules",
+      "tasks": "System Schedule",
+      "task": "Task",
+      "order": "Order",
+      "crm": "CRM",
+      "taskShift": "Task Shift",
+      "agentCareJob": "Agent Care  ",
+      "assignOrderJob": "Assign Order  ",
+      "campaignAgentsJob": "Campaign Agents  ",
+      "reviewJob": "Review  ",
+      "moduleType": "Module",
+      "eventSchedule": "Event",
+      "visitJob": "Visit Job",
+      "parameter": "Parameter(Shift-etc)"
     }
   },
   "client": {
@@ -781,7 +861,134 @@
       "note": "Notes",
       "editClient": "Edit Client",
       "addClient": "Add Client",
-      "status": "Status"
+      "status": "Status",
+      "profile": "Client Profile"
+    },
+    "clientProfile": {
+      "profile": "Profile",
+      "contacts": "Contacts",
+      "invoices": "Invoices",
+      "payments": "Payments",
+      "orders": "Orders",
+      "porposals": "Porposals",
+      "notes": "Notes",
+      "reView": "Order Review"
+    }
+  },
+  "crm": {
+    "leads": {
+      "title": "Leads",
+      "titleOperation": "Lead",
+      "addLeads": "Add Leads",
+      "editLeads": "Edit Leads",
+      "mobile": "Mobile",
+      "cityName": "City",
+      "channelName": "Channel ",
+      "leadType": "Lead Types",
+      "name": "Name",
+      "email": "Email",
+      "note": "Notes",
+      "status": "Status",
+      "Proposed": "Proposed",
+      "Inquiry": "Inquiry"
+    },
+    "serviceAfterSale": {
+      "title": "Service After Sale",
+      "titleOperation": "Service After Sale",
+      "addReview": "Add Review"
+    },
+    "reviewQuestion": {
+      "title": "Review Questions",
+      "titleOperation": "Review Question",
+      "isSendClient": "Show On Website",
+      "sort": "Sort",
+      "answerType": "Answer Types",
+      "items": "Display Name (separate by ,)",
+      "score": "Score Answer (separate by ,)",
+      "point": "Score",
+      "isSeeMobileApp": "Show On  Mobile",
+      "isRequired": "Is Required"
+    },
+    "reviewAnswer": {
+      "title": "Review Answer",
+      "titleOperation": "Review Answer",
+      "answerType": "Answer Shape",
+      "star": "Star",
+      "checkBox": "Check Box",
+      "text": "Text",
+      "point": "Max Score",
+      "sort": "sort"
+    },
+    "clientReview": {
+      "title": "Clients Review",
+      "titleOperation": "Review Question",
+      "clientName": "Client Name",
+      "orderId": "Order Number",
+      "clientReviewFinalResultNameAr": "Review Result",
+      "note": "Notes",
+      "mobile": "Mobile",
+      "questionName": "Question Name",
+      "startStatusName": "Inital Status  ",
+      "endStatusName": "Final Status  ",
+      "actionDoing": "Action",
+      "doAction": "Do Action",
+      "clientPrice": "Client Price",
+      "orderPrice": "Order Price"
+    },
+    "clientReviewPrice": {
+      "title": "Client Review Price",
+      "titleOperation": "Client Review Price",
+      "match": "Match",
+      "notMatch": "Not Match",
+      "matchPrice": "Match Price"
+    },
+    "clientReviewFinalResult": {
+      "title": "Review Results",
+      "titleOperation": "Review Result",
+      "scoreFrom": "Score From",
+      "scoreTo": "Score To",
+      "color": "Color"
+    },
+    "clientReviewActionDoing": {
+      "title": "Review Actions",
+      "titleOperation": "Review Action"
+    },
+    "reviewstatistics": {
+      "title": "Review statistics",
+      "titleOperation": "Review statistics",
+      "qestionCount": "Qestion Count - Review"
+    },
+    "crmSetting": {
+      "title": "Crm Setting",
+      "titleOperation": "Crm Setting"
+    }
+  },
+  "statistics": {
+    "orderReview": {
+      "title": "Orders Review",
+      "titleOperation": "Order Review",
+      "cities": "Cities",
+      "teams": "Teams",
+      "dateReview": "Date From - To ",
+      "evaluationQualityService": "Evaluation Quality Service",
+      "areSatisfiedTeamTreatment": "Team treating you well?",
+      "howPunctualYou": "How punctual were you?",
+      "wouldLikeDealAgain": "Work with us again?"
+    },
+    "orderManager": {
+      "title": "Order Analysis",
+      "titleOperation": "Order Analysis",
+      "totalInvoices": "T. Invoices",
+      "totalOrder": "T.Order",
+      "avgValueOrder": "avg V. Order",
+      "avgTeamOrder": "avg Order / Team",
+      "avgTimeOrder": "avg Order / Time",
+      "orderForDays": "Order Daily/ Days",
+      "orderDaily": "Order Daily"
+    },
+    "orderDaily": {
+      "title": "Order Daily",
+      "titleOperation": "Order Daily"
     }
   }
 }
