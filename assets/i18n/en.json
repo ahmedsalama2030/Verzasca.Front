@@ -398,7 +398,8 @@
       "notifications": "Notifications",
       "new": "New",
       "alerts": "Alerts",
-      "markALLSee": "Mark ALL Read"
+      "markALLSee": "Mark ALL Read",
+      "timeAvailable": "Time Available"
     }
   },
   "auth": {
@@ -691,7 +692,26 @@
       "notes": "Notes",
       "noData": "There is no data in the table yet.",
       "extraDiscount": "Extra Discount",
+      "isUrgent": "Is Urgent",
+      "paymentMethods": "Payment Methods",
+      "paid": "Paid",
+      "file": "file attached",
       "actions": "Actions"
+    },
+    "timeAvailable": {
+      "title": "Time availables",
+      "titleOperation": "Time available",
+      "date": "Date",
+      "back": " Previous day  ",
+      "next": " Next Day",
+      "city": "City",
+      "categories": "Category",
+      "selectCity": "Please Select City",
+      "selectServiceCategory": "Please Service Category",
+      "selectDate": "Please Select Date",
+      "block": "Booked",
+      "unBlock": "Not Booked",
+      "time": "Time"
     }
   },
   "marketingManagement": {
@@ -917,7 +937,8 @@
       "checkBox": "Check Box",
       "text": "Text",
       "point": "Max Score",
-      "sort": "sort"
+      "sort": "Sort",
+      "radio": "Radio"
     },
     "clientReview": {
       "title": "Clients Review",

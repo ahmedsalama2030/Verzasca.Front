@@ -684,7 +684,26 @@
       "notes": "ملاحظات",
       "noData": "لايوجد بيانات بالجدول حتى الان",
       "extraDiscount": "خصم إضافي",
+      "isUrgent": "التعيين في اقرب وقت",
+      "paymentMethods": "طرق الدفع",
+      "paid": "المدفوع",
+      "file": "الملف المرفق",
       "actions": "اجراءات"
+    },
+    "timeAvailable": {
+      "title": "المواعيد المتاحة",
+      "titleOperation": "موعد متاح",
+      "date": "اليوم",
+      "back": "اليوم السابق",
+      "next": "اليوم التالى",
+      "city": "المدينة",
+      "categories": "الفئة",
+      "selectCity": "من فضلك اختر مدينة",
+      "selectServiceCategory": "من فضلك أختر فئة او اكثر",
+      "selectDate": "من فضلك أختر تاريخ",
+      "block": "تم حجزه",
+      "unBlock": "غير محجوز",
+      "time": "الموعد"
     }
   },
   "marketingManagement": {
