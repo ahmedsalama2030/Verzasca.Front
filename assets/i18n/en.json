@@ -386,7 +386,8 @@
       "messages": "Internal Messages",
       "statistics": "Statistics",
       "crm": "CRM",
-      "leads": "Leads"
+      "leads": "Leads",
+      "nearly": "Nearly"
     },
     "topbar": {
       "quickLinks": "Quick Links",
@@ -583,7 +584,7 @@
       "title": "Teams",
       "titleOperation": "Team",
 
-      "cityName": "city Name",
+      "cityName": "City ",
       "categoryName": "Category Name",
       "workTimeName": "Work Time  ",
       "dayOff": "Days Off"
@@ -696,13 +697,20 @@
       "paymentMethods": "Payment Methods",
       "paid": "Paid",
       "file": "file attached",
+      "AvailableTimes": "Available Times",
+      "noServices": "There is no services selected yet",
+      "SubTotal": "Sub Total",
+      "Discount": "Discount",
+      "Total": "Total",
+      "TotalPaid": "Total Paid",
+      "OrderSummary": "Order Summary",
       "actions": "Actions"
     },
     "timeAvailable": {
       "title": "Time availables",
       "titleOperation": "Time available",
       "date": "Date",
-      "back": " Previous day  ",
+      "back": " Previous Day  ",
       "next": " Next Day",
       "city": "City",
       "categories": "Category",
@@ -711,6 +719,7 @@
       "selectDate": "Please Select Date",
       "block": "Booked",
       "unBlock": "Not Booked",
+      "holidayTeam": "Holiday",
       "time": "Time"
     }
   },

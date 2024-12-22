@@ -380,7 +380,8 @@
       "messages": "الرسائل الداخلية",
       "statistics": "الاحصائيات",
       "crm": "إدارة علاقات العملاء (crm)",
-      "leads": "العملاء المحتملين"
+      "leads": "العملاء المحتملين",
+      "nearly": "قريبا"
     },
     "topbar": {
       "quickLinks": "روابط سريعة",
@@ -688,6 +689,13 @@
       "paymentMethods": "طرق الدفع",
       "paid": "المدفوع",
       "file": "الملف المرفق",
+      "noServices": "لم يتم اختيار اي خدمة حتى الان",
+      "AvailableTimes": "الأوقات المتاحة",
+      "SubTotal": "المجموع (قبل الخصم)",
+      "Discount": "الخصم",
+      "Total": "المجموع",
+      "TotalPaid": "مجموع المدفوعات",
+      "OrderSummary": "ملخص الطلب",
       "actions": "اجراءات"
     },
     "timeAvailable": {
@@ -703,7 +711,8 @@
       "selectDate": "من فضلك أختر تاريخ",
       "block": "تم حجزه",
       "unBlock": "غير محجوز",
-      "time": "الموعد"
+      "time": "الموعد",
+      "holidayTeam": "أجازة"
     }
   },
   "marketingManagement": {
