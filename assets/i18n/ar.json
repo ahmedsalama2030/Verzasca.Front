@@ -336,7 +336,8 @@
       "search": "بحث",
       "addNew": "إضافة جديد",
       "run": "تشغيل",
-      "back": "رجوع"
+      "back": "رجوع",
+      "view": "رؤية"
     },
     "permission": {
       "view": "روية",
@@ -381,7 +382,10 @@
       "statistics": "الاحصائيات",
       "crm": "إدارة علاقات العملاء (crm)",
       "leads": "العملاء المحتملين",
-      "nearly": "قريبا"
+      "nearly": "قريبا",
+      "store": "إدارة المخزون",
+      "tickets": "تذاكر لدعم",
+      "approval": "الموافقات"
     },
     "topbar": {
       "quickLinks": "روابط سريعة",
@@ -614,6 +618,10 @@
       "title": "تغيير الشفتات",
       "titleOperation": "الشفت",
       "addNew": "إضافة جديد"
+    },
+    "rewards": {
+      "title": "المكافأت",
+      "titleOperation": "مكافأه "
     }
   },
   "clientManagement": {
@@ -696,7 +704,56 @@
       "Total": "المجموع",
       "TotalPaid": "مجموع المدفوعات",
       "OrderSummary": "ملخص الطلب",
-      "actions": "اجراءات"
+      "actions": "اجراءات",
+      "location": "الموقع",
+      "AreYouSureMessage": "هل انت متاكد؟",
+      "call": "إجراء مكالمة",
+      "inquiry": "إستفسار",
+      "evaluation": "تقييم",
+      "orderNew": "طلب جديد",
+      "noMap": "لا يوجد خريطة",
+      "viewMap": "رؤية الموقع",
+      "AssignMessage": " هل انت متأكد من إسناد الطلب الى الفرق والأوقات الظاهرة في الأسفل؟",
+      "cost": "المبلغ",
+      "VAT": "الضريبة",
+      "total": "الاجمالى",
+      "paymentTypeName": "المدفوعات",
+      "finishUser": "منهى بواسطه",
+      "creation": "الانشاء",
+      "printPill": "ضباعة الفاتورة",
+      "reopenOrder": "إعادة الفتح",
+      "returnReason": "السبب",
+      "reopenNotes": "ملاحظات",
+      "reopenTitle": "إعادة الفتح",
+      "returnReasonName": "السبب",
+      "cancelReasonName": "السبب",
+      "priceEvaluation": "تقييم السعر",
+      "finishEvaluation": "التقييم",
+      "assignEvaluation": "تقييم مسند",
+      "newOrders": {
+        "title": "الطلبات الجديدة",
+        "titleOperation": "الطلبات الجديدة"
+      },
+      "urgentOrders": {
+        "title": "الطلبات المستعجلة",
+        "titleOperation": "الطلبات المستعجلة"
+      },
+      "sureOrders": {
+        "title": "الطلبات المؤكدة",
+        "titleOperation": "الطلبات المؤكدة"
+      },
+      "assignedOrders": {
+        "title": "الطلبات المسندة",
+        "titleOperation": "الطلبات المسندة"
+      },
+      "completeOrders": {
+        "title": "الطلبات المكتملة",
+        "titleOperation": "الطلبات المكتملة"
+      },
+      "refundableOrders": {
+        "title": "طلبات الاعادة",
+        "titleOperation": "طلبات الاعادة"
+      }
     },
     "timeAvailable": {
       "title": "المواعيد المتاحة",
@@ -829,6 +886,8 @@
     "serviceCategory": {
       "title": "الفئات",
       "titleOperation": "فئة",
+      "add": "إضافة خدمة",
+      "edit": "تعديل خدمة",
       "services": "الخدمات",
       "service": "خدمة",
       "addServiceCategory": "إضافة فئة",
@@ -836,8 +895,21 @@
       "price": "السعر",
       "serviceTypeCode": "نوع الخدمة",
       "timeCount": "عدد لمواعيد",
-      "description": "الوصف",
-      "isMostWanted": "الاكثر طلباً"
+      "description": "الوصف (En)",
+      "DescriptionAr": "الوصف (Ar)",
+      "ShortDescriptionEn": "وصف قصير (En)",
+      "ShortDescriptionAr": "وصف قصير (Ar)",
+      "isMostWanted": "الاكثر طلباً",
+      "Publish": "نشر",
+      "ServicePublish": "نشر الخدمة",
+      "ServiceCategories": "اصناف الخدمات",
+      "Categories": "الاصناف الخدمات",
+      "ServiceImage": "صور الخدمة",
+      "ServiceGallery": "معرض الخدمة",
+      "AddImage": "إضافة صورة",
+      "english": "الانجليزية",
+      "arabic": "العربية",
+      "descriptionAr": "الوصف بالعربية"
     },
     "channel": {
       "title": "القنوات",
@@ -850,7 +922,14 @@
       "tasks": "المهام اليومية",
       "orders": "الطلبات",
       "taskPerfix": "بادئة المهام",
-      "orderPerfix": "بادئة الطلبات"
+      "orderPerfix": "بادئة الطلبات",
+      "visitMessage": "رسالة الزيارة",
+      "reviewMessage": "رسالة التقييم",
+      "recallMessage": "رساله إعادة الاتصال",
+      "compainMessage": "رسالة الحملة الاعلانية",
+      "confirmOrderMessage": "رسالة تاكيد الطلبات",
+      "invoiceMessageWithDiscount": "رسالة الفاتورة مع الخصم",
+      "invoiceMessageWithOutDiscount": "رسالة الفاتورة بدون خصم"
     },
     "systemSchedule": {
       "title": "جدوله النظام",
@@ -903,7 +982,8 @@
     "serviceAfterSale": {
       "title": "خدمة ما بعد البيع",
       "titleOperation": "خدمة ما بعد البيع",
-      "addReview": "إضافة تقييم"
+      "addReview": "إضافة تقييم",
+      "review": "تقييم"
     },
     "reviewQuestion": {
       "title": "أسئلة تقييم",
@@ -938,14 +1018,22 @@
       "endStatusName": "النتيجة النهائية",
       "actionDoing": "الإجراء المتخذ",
       "doAction": "الإجراء",
-      "orderPrice": "سعر الفعلى للخدمة"
+      "orderPrice": "سعر الفعلى للخدمة",
+      "review": "اخذ اجراء"
     },
     "clientReviewPrice": {
       "title": "مراجعه تقييم الاسعار",
       "titleOperation": "مراجعه أسعار التقييم",
       "match": "متساو",
       "notMatch": "غير متساو",
-      "matchPrice": "متساو"
+      "matchPrice": "متساو",
+      "numberMatch": "  الاسعار المتساوية",
+      "numberNotMatch": "الاسعار الغير متشاوية",
+      "notReview": "لم يراجع",
+      "review": "تمت مراجعته",
+      "actionMismatch": "الاجراءات المتخذه",
+      "reviewStatus": "المراجعه",
+      "team": "الفرقة"
     },
     "clientReviewFinalResult": {
       "title": "نتائج تقييم",
@@ -961,7 +1049,8 @@
     "reviewstatistics": {
       "title": "إحصائيات تقييم",
       "titleOperation": "إحصائيات تقييم",
-      "qestionCount": "الاسئلة / العدد"
+      "qestionCount": "الاسئلة / العدد",
+      "question": "السؤال"
     },
     "crmSetting": {
       "title": "إعدادات CRM",
@@ -995,6 +1084,30 @@
     "orderDaily": {
       "title": "الطلبات اليومية",
       "titleOperation": "طلب يومى"
+    }
+  },
+  "store": {
+    "item": {
+      "title": "أصناف المخزن"
+    },
+    "stocktaking": {
+      "title": "سجل الجرد"
+    },
+    "storeTransaction": {
+      "title": "حركة المخزن"
+    }
+  },
+  "ticketSupport": {
+    "ticket": {
+      "title": "تذاكر الدعم"
+    },
+    "newTicket": {
+      "title": "تذكرة جديدة"
+    }
+  },
+  "approval": {
+    "approval": {
+      "title": "الموافقات"
     }
   }
 }

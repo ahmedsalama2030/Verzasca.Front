@@ -341,7 +341,9 @@
       "search": "Search",
       "addNew": "Add New",
       "back": "Back",
-      "run": "Run"
+      "run": "Run",
+      "view": "View",
+      "loading": "Loading"
     },
 
     "permission": {
@@ -380,14 +382,17 @@
       "orders": "Order Management",
       "marketing": "Marketing Management",
       "finance": "Finance",
-      "security": "security Management",
+      "security": "Security",
       "securityManagement": "Security Management",
       "basicData": "Basic Data",
       "messages": "Internal Messages",
       "statistics": "Statistics",
       "crm": "CRM",
       "leads": "Leads",
-      "nearly": "Nearly"
+      "nearly": "Nearly",
+      "store": "Stores",
+      "tickets": "Tickets",
+      "approval": "Approvals"
     },
     "topbar": {
       "quickLinks": "Quick Links",
@@ -622,6 +627,10 @@
       "title": "  Shift Changes",
       "titleOperation": "Shift ",
       "addNew": "add New "
+    },
+    "rewards": {
+      "title": "Rewards",
+      "titleOperation": "Reward "
     }
   },
   "clientManagement": {
@@ -638,7 +647,7 @@
       "allOrder": "  Orders",
       "newOrder": "New Orders",
       "map": "Order Map",
-      "all": "All Orders",
+      "all": "All",
       "pending": "Pending",
       "cancelled": "Cancelled",
       "orderCode": "Code",
@@ -650,9 +659,9 @@
       "channelName": "Channel",
       "mobile": "Mobile",
       "assignTo": "Assign To",
-      "visitDate": "visit Date",
+      "visitDate": "Visit Date",
       "finishedDate": "Finished Date",
-      "workTimes": "Work Times",
+      "workTimes": "Times",
       "services": "Services",
       "nothing": "No thing",
       "cancel": "Cancel",
@@ -672,11 +681,11 @@
       "editOrders": "Edit Orders",
       "orderType": "Order Type",
       "orderSource": "Order Source",
-      "clientName": "client Name",
-      "phoneNumber": "Phone Number",
-      "cityName": "City Name",
+      "clientName": "client",
+      "phoneNumber": "Mobile",
+      "cityName": "City",
       "name": "Name",
-      "DistrictName": "District Name",
+      "DistrictName": "District",
       "email": "Email",
       "HowYouKnowAboutUs": "How You Know About Us",
       "PreviousOrders": "Previous Orders",
@@ -704,7 +713,57 @@
       "Total": "Total",
       "TotalPaid": "Total Paid",
       "OrderSummary": "Order Summary",
-      "actions": "Actions"
+      "actions": "Actions",
+      "location": "Location",
+      "AreYouSureMessage": "Are you sure?",
+      "AssignMessage": "Are you sure to assign the order to the teams and times shown below?",
+      "call": "Call",
+      "inquiry": "Inquiry",
+      "evaluation": "Evaluation",
+      "orderNew": "Order New",
+      "lastCallDate": "Last Call Date",
+      "noMap": "No Map",
+      "viewMap": "View Map",
+      "cost": "Cost",
+      "VAT": "VAT",
+      "total": "Total",
+      "paymentTypeName": "Payment",
+      "finishUser": "Finish By",
+      "creation": "Creation",
+      "printPill": "Print Pill",
+      "reopenOrder": "Reopen Order",
+      "returnReason": "Reason",
+      "reopenNotes": "Notes",
+      "reopenTitle": "Reopen",
+      "returnReasonName": "Reason",
+      "cancelReasonName": "Reason ",
+      "priceEvaluation": "Price Eval",
+      "finishEvaluation": "finish Eval",
+      "assignEvaluation": "assign Eval",
+      "newOrders": {
+        "title": "New",
+        "titleOperation": "New"
+      },
+      "urgentOrders": {
+        "title": "Urgented",
+        "titleOperation": "Urgented"
+      },
+      "sureOrders": {
+        "title": "Confirmed ",
+        "titleOperation": "Confirmed "
+      },
+      "assignedOrders": {
+        "title": "Assigned",
+        "titleOperation": "Assigned"
+      },
+      "completeOrders": {
+        "title": "Completed",
+        "titleOperation": "Completes"
+      },
+      "refundableOrders": {
+        "title": "Canceled",
+        "titleOperation": "Canceled"
+      }
     },
     "timeAvailable": {
       "title": "Time availables",
@@ -835,8 +894,10 @@
       "titleOperation": "Service Type"
     },
     "serviceCategory": {
-      "title": "  Categories",
-      "titleOperation": "  Category",
+      "title": "Categories",
+      "titleOperation": "Category",
+      "add": "Add Service",
+      "edit": "Edit Service",
       "services": "Services",
       "service": "Service",
       "addServiceCategory": "Add Category",
@@ -844,8 +905,21 @@
       "price": "Price",
       "serviceTypeCode": "Service Type",
       "timeCount": "Time Count",
-      "description": "Description",
-      "isMostWanted": "Is Most Wanted"
+      "description": "Description (En)",
+      "DescriptionAr": "Description (Ar)",
+      "ShortDescriptionEn": "Short Description (En)",
+      "ShortDescriptionAr": "Short Description (Ar)",
+      "isMostWanted": "Is Most Wanted",
+      "Publish": "Publish",
+      "ServicePublish": "Service Publish",
+      "ServiceCategories": "Services Categories",
+      "Categories": "Categories",
+      "ServiceImage": "Service Images",
+      "ServiceGallery": "Service Gallery",
+      "AddImage": "Add Image",
+      "english": "English",
+      "arabic": "Arabic",
+      "descriptionAr": "Description Arabic"
     },
 
     "channel": {
@@ -859,7 +933,14 @@
       "tasks": "Daily Tasks",
       "orders": "Orders",
       "taskPerfix": "Task Perfix",
-      "orderPerfix": "Order Perfix"
+      "orderPerfix": "Order Perfix",
+      "visitMessage": "Visit Message",
+      "reviewMessage": "Review Message",
+      "recallMessage": "Recall Message",
+      "compainMessage": "Compain Message",
+      "confirmOrderMessage": "Confirm Order Message",
+      "invoiceMessageWithDiscount": "Invoice Message With Discount",
+      "invoiceMessageWithOutDiscount": "Invoice Message With Out Discount"
     },
     "systemSchedule": {
       "title": "System Schedules",
@@ -924,7 +1005,8 @@
     "serviceAfterSale": {
       "title": "Service After Sale",
       "titleOperation": "Service After Sale",
-      "addReview": "Add Review"
+      "addReview": "Add Review",
+      "review": "Review"
     },
     "reviewQuestion": {
       "title": "Review Questions",
@@ -953,7 +1035,7 @@
       "title": "Clients Review",
       "titleOperation": "Review Question",
       "clientName": "Client Name",
-      "orderId": "Order Number",
+      "orderId": "Order",
       "clientReviewFinalResultNameAr": "Review Result",
       "note": "Notes",
       "mobile": "Mobile",
@@ -963,14 +1045,22 @@
       "actionDoing": "Action",
       "doAction": "Do Action",
       "clientPrice": "Client Price",
-      "orderPrice": "Order Price"
+      "orderPrice": "Order Price",
+      "review": "Action"
     },
     "clientReviewPrice": {
       "title": "Client Review Price",
       "titleOperation": "Client Review Price",
       "match": "Match",
       "notMatch": "Not Match",
-      "matchPrice": "Match Price"
+      "matchPrice": "Match Price",
+      "numberMatch": "# Match",
+      "numberNotMatch": "# Not Match",
+      "notReview": "Not Review",
+      "review": "Review",
+      "actionMismatch": "Action Note",
+      "reviewStatus": "Review",
+      "team": "Team"
     },
     "clientReviewFinalResult": {
       "title": "Review Results",
@@ -986,7 +1076,8 @@
     "reviewstatistics": {
       "title": "Review statistics",
       "titleOperation": "Review statistics",
-      "qestionCount": "Qestion Count - Review"
+      "qestionCount": "Qestion Count - Review",
+      "question": "Question"
     },
     "crmSetting": {
       "title": "Crm Setting",
@@ -1019,6 +1110,30 @@
     "orderDaily": {
       "title": "Order Daily",
       "titleOperation": "Order Daily"
+    }
+  },
+  "store": {
+    "item": {
+      "title": "Items"
+    },
+    "stocktaking": {
+      "title": "Stocktaking"
+    },
+    "storeTransaction": {
+      "title": "Store Transactions"
+    }
+  },
+  "ticketSupport": {
+    "ticket": {
+      "title": "tickets"
+    },
+    "newTicket": {
+      "title": "New ticket"
+    }
+  },
+  "approval": {
+    "approval": {
+      "title": "approvals"
     }
   }
 }
