@@ -251,7 +251,7 @@ ul {
         border-left: 1px solid var(--vz-border-color);
         transform: translateX(0%)
     }
-    
+
     &.offcanvas-end {
         top: 0;
         right: 0;
@@ -630,11 +630,22 @@ $value in $theme-colors {
     border-top-right-radius: $border-radius;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     text-align: right;
 }
 
 .dropdown-menu-end {
     left: 0 !important;
     right: auto !important;
+}
+
+.step-arrow-nav .nav .nav-link::before {
+    right: 0;
+    left: -14px;
+}
+
+.step-arrow-nav .nav .nav-link::before {
+    right: 100%;
+    left: 0;
+    transform: rotate(180deg) translateY(41%);
 }

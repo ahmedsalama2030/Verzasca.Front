@@ -295,6 +295,7 @@
   },
 
   "general": {
+    "search": "بحث",
     "message": {
       "successProccess": "تمت العملية بنجاح",
       "failProccess": "فشلت العملية",
@@ -323,6 +324,8 @@
     },
     "action": {
       "register": "تسجيل",
+      "next": "التالي",
+      "previous": "السابق",
       "edit": "تعديل",
       "save": "حفظ",
       "delete": "حذف",
@@ -688,6 +691,8 @@
       "OrderDetails": "تفاضيل الطلب",
       "clientInfo": "معلومات العميل",
       "serviceCategory": "فئة خدمة",
+      "ServiceName": "اسم الخدمة",
+      "ServicePrice": "سعر الخدمة",
       "service": "خدمة",
       "price": "السعر",
       "notes": "ملاحظات",
@@ -695,7 +700,7 @@
       "extraDiscount": "خصم إضافي",
       "isUrgent": "التعيين في اقرب وقت",
       "paymentMethods": "طرق الدفع",
-      "paid": "المدفوع",
+      "paid": "الدفع",
       "file": "الملف المرفق",
       "noServices": "لم يتم اختيار اي خدمة حتى الان",
       "AvailableTimes": "الأوقات المتاحة",
@@ -730,6 +735,36 @@
       "priceEvaluation": "تقييم السعر",
       "finishEvaluation": "التقييم",
       "assignEvaluation": "تقييم مسند",
+      "selectedServices": "الخدمات التي تم اختيارها",
+      "clientServices": "خدمات العميل",
+      "noCategoryMessage": "لم يتم اختيار اي تصنيف بعد !",
+      "orderSummary": "ملخص الطلب",
+      "viewOrderSummary": "يمكنك رؤية ملخص تفاصيل الطلب",
+      "paymentSelection": "اختيار طريقة الدفع",
+      "nameOnCard": "الاسم على البطاقة",
+      "cardNumber": "رقم البطاقة",
+      "expiration": "الانتهاء",
+      "CVV": "CVV",
+      "orderNote": "ملاحظات الطلب",
+      "teamStatus": "حالة الفريق",
+      "requestNoStart": "لم يبدأ",
+      "callLoggedBeforeArrival": "اتصال بالعميل",
+      "noAnswerStatusUpdated": "العميل لم يرد ",
+      "requestCancellation": "إلغاء الطلب",
+      "appointmentPostponed": " تغيير الموعد",
+      "enRouteToCustomer": "فى الطريق",
+      "arrivedAtLocation": "فى الموقع",
+      "requestFinished": "إنهاء الطلب",
+      "changeTeamStatus": "تغيير الحالة",
+      "locations": "العنوان",
+      "timesNav": "المواعيد",
+      "clientFound": "العميل موجود مسبقا",
+      "clientNotFound": "العميل غير موجود",
+      "phoneMust10Digit": "رقم الجوال يجيب ان يحتوى على 10 ارقام فقط",
+      "phoneMustStart05": "رقم الجوال يجيب ان يبدأ ب 05",
+      "phoneMustContainOnlyDigit": "رقم الجوال يجيب ان يحتوى على ارقام فقط",
+      "currancy": "ريال",
+
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
@@ -770,6 +805,15 @@
       "unBlock": "غير محجوز",
       "time": "الموعد",
       "holidayTeam": "أجازة"
+    },
+    "priceEvaluation": {
+      "title": "تقييم السعر",
+      "titleOperation": "تقييم سعر",
+      "assign": "إسناد",
+      "cancel": "إلغاء",
+      "status": "الحالة",
+      "isUrgent": "مستعجل",
+      "normal": "تقييم سعر"
     }
   },
   "marketingManagement": {
