@@ -491,6 +491,8 @@
       "orderId": "رقم الطلب",
       "statusName": "اسم الحالة",
       "inProgress": "قيد التنفيذ",
+      "new": "جديد",
+
       "finished": "مكتملة",
       "finishedAnother": "إنهاء من شخص اخر",
       "notStart": "لم تبدأ",
@@ -638,6 +640,7 @@
       "titlePending": "الطلبات المعلقة",
       "titleRecall": "طلبات اعادة الاتصال",
       "allOrder": "جميع الطلبات",
+      "evalOrder": "تقييم الطلبات",
       "newOrder": "طلبات جديدة",
       "map": "خرايطه طلبات (الفرق)",
       "all": "كل الطلبات",
@@ -696,6 +699,7 @@
       "service": "خدمة",
       "price": "السعر",
       "notes": "ملاحظات",
+      "date": "التاريخ",
       "noData": "لايوجد بيانات بالجدول حتى الان",
       "extraDiscount": "خصم إضافي",
       "isUrgent": "التعيين في اقرب وقت",
@@ -704,12 +708,13 @@
       "file": "الملف المرفق",
       "noServices": "لم يتم اختيار اي خدمة حتى الان",
       "AvailableTimes": "الأوقات المتاحة",
-      "SubTotal": "المجموع (قبل الخصم)",
+      "SubTotal": "الاجمالى (قبل الخصم)",
       "Discount": "الخصم",
-      "Total": "المجموع",
-      "TotalPaid": "مجموع المدفوعات",
+      "Total": "الاجمالى بعد الخصم ",
+      "TotalPaid": "إجمالى المدفوعات",
       "OrderSummary": "ملخص الطلب",
       "actions": "اجراءات",
+      "teamName": "اسم الفريق",
       "location": "الموقع",
       "AreYouSureMessage": "هل انت متاكد؟",
       "call": "إجراء مكالمة",
@@ -756,6 +761,13 @@
       "arrivedAtLocation": "فى الموقع",
       "requestFinished": "إنهاء الطلب",
       "changeTeamStatus": "تغيير الحالة",
+      "evaluate": "تفقييم",
+      "clientExist": "هذا العميل موجود من قبل",
+      "clientNotExist": "هذا العميل غير موجود من قبل",
+      "yes": "نعم",
+      "no": "لا",
+      "assignDate": "تاريخ الاسناد",
+      "team": "الفريق",
       "locations": "العنوان",
       "timesNav": "المواعيد",
       "clientFound": "العميل موجود مسبقا",
@@ -764,6 +776,32 @@
       "phoneMustStart05": "رقم الجوال يجيب ان يبدأ ب 05",
       "phoneMustContainOnlyDigit": "رقم الجوال يجيب ان يحتوى على ارقام فقط",
       "currancy": "ريال",
+      "canceledEvaluation": "التقييمات الملغية",
+      "assignedTo": "مسند الى",
+      "sendToClient": "إرسال الى العميل",
+      "successSendLocation": "نجاح فى إرسال تحديد الموقع",
+      "failSendLocation": "فشل فى الارسال ",
+      "mustEnterNumber": "يجب إدخال الجوال",
+      "lat": "Lat",
+      "lng": "Lng",
+      "address": "العنوان",
+      "attchment": "المرفقات",
+      "orderComplete": "حفظ الطلب",
+      "orderSaveSuccess": "شكرًا لك! تم إكمال طلبك!",
+      "mustSelectClientInfo": "يجب إكمال بيانات العميل المطلوبة",
+      "mustSelectServices": "يجب إختيار الخدمات",
+      "mustSelectTimes": "يجب إختيار الموعد متاح",
+      "newOrderAgain": "طلب جديد",
+      "addCostLargeTotal": "المبلغ المدفع اكبر من المطلوب",
+      "orderEdit": "تعديل طلب",
+      "addToLead": " عميل محتمل",
+      "sureGoLead": "هل انت متاكد من الإضافة الى العملاء المحتملين؟",
+      "trackOrder": "تتبع الطلب",
+      "sureDate": "تاريخ التاكيد",
+      "finishDate": "تاريخ الانتهاء",
+      "paidTotal": "إجمالى المدفوع",
+
+      "reminder": "المتبقى",
 
       "newOrders": {
         "title": "الطلبات الجديدة",
@@ -779,15 +817,28 @@
       },
       "assignedOrders": {
         "title": "الطلبات المسندة",
-        "titleOperation": "الطلبات المسندة"
+        "titleOperation": "الطلبات المسندة",
+        "finishOrder": "انهاء الطلب (طلب جديد)",
+        "usedShow": "العرض المستخدم",
+        "total": "الاجمالى",
+        "tax": "الضريبة",
+        "net": "الصافى",
+        "paymentMethod": "طريقة دفع",
+        "notes": "ملاحظات",
+        "attachImages": "ارفاق الصور",
+        "extraDiscount": "خصم إضافي",
+        "promotionDiscount": "الخصم الترويجي",
+        "paid": "المدفوع",
+        "select": "اختر",
+        "remain": "المتبقي"
       },
       "completeOrders": {
         "title": "الطلبات المكتملة",
         "titleOperation": "الطلبات المكتملة"
       },
       "refundableOrders": {
-        "title": "طلبات الاعادة",
-        "titleOperation": "طلبات الاعادة"
+        "title": "الملغاه",
+        "titleOperation": "الملغى"
       }
     },
     "timeAvailable": {
@@ -813,7 +864,56 @@
       "cancel": "إلغاء",
       "status": "الحالة",
       "isUrgent": "مستعجل",
+      "reassign": "اعادة اسناد",
+      "show": "عرض",
       "normal": "تقييم سعر"
+    },
+    "assignEvaluation": {
+      "title": "التقييمات المسندة",
+      "titleOperation": "التقييمات المسندة",
+      "assign": "إسناد",
+      "cancel": "إلغاء",
+      "status": "الحالة",
+      "isUrgent": "مستعجل",
+      "reassign": "اعادة اسناد",
+      "reassignEval": "اعادة اسناد التقييم",
+      "show": "عرض",
+      "normal": "تقييم سعر"
+    },
+    "finishedEvaluation": {
+      "title": "التقييمات المنتهية",
+      "finish": "انهاء",
+      "titleOperation": "التقييمات المنتهية",
+      "assign": "إسناد",
+      "cancel": "إلغاء",
+      "status": "الحالة",
+      "isUrgent": "مستعجل",
+      "reassign": "اعادة اسناد",
+      "show": "عرض",
+      "normal": "تقييم سعر"
+    },
+    "canceledEvaluation": {
+      "title": "التقييمات الملغية",
+      "titleOperation": "التقييمات الملغية",
+      "assign": "إسناد",
+      "cancel": "إلغاء",
+      "status": "الحالة",
+      "isUrgent": "مستعجل",
+      "reassign": "اعادة اسناد",
+      "show": "عرض",
+      "normal": "تقييم سعر"
+    },
+    "invoices": {
+      "title": "الفواتير",
+      "paymentMethod": "طريقة الدفع",
+      "client": "العميل",
+      "discount": "الخصم",
+      "service": "الخدمة",
+      "priceBeforeTax": "المبلغ قبل الضريبة",
+      "price": "السعر",
+      "print": "طباعة",
+      "total": "الإجمالي",
+      "vat": "% ضريبة القيمة المضافة 15%"
     }
   },
   "marketingManagement": {
@@ -884,6 +984,23 @@
     }
   },
   "basicData": {
+    "whatsapp": {
+      "title": "قوالب الواتس اب",
+      "titleOperation": "قالب واتس اب",
+      "tableTitle": "عنوان الرسالة",
+      "body": "الرسالة",
+      "type": "نوع الرسالة",
+      "isActive": "هل نشط",
+      "InvoiceWithDiscount": "الفاتورة مع الخصم",
+      "InvoiceWithoutDiscount": "الفاتورة بدون الخصم",
+      "Recall": "اعادة الاتصال",
+      "Review": "المراجعة",
+      "Visit": "الزيارة",
+      "AddOrder": "اضافة طلب",
+      "InvoiceVIP": "فاتورة (VIP)",
+      "Invoice": "فاتورة",
+      "CampaignAGent": "حملة تسويقية"
+    },
     "integrations": {
       "title": "ريط api",
       "titleOperation": "ربط api"
@@ -973,7 +1090,8 @@
       "compainMessage": "رسالة الحملة الاعلانية",
       "confirmOrderMessage": "رسالة تاكيد الطلبات",
       "invoiceMessageWithDiscount": "رسالة الفاتورة مع الخصم",
-      "invoiceMessageWithOutDiscount": "رسالة الفاتورة بدون خصم"
+      "invoiceMessageWithOutDiscount": "رسالة الفاتورة بدون خصم",
+      "tax": "الضريبة"
     },
     "systemSchedule": {
       "title": "جدوله النظام",
