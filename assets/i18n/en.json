@@ -373,7 +373,20 @@
       "addGallary": "Add Gallery",
       "userLock": "Lock User",
       "resetPassword": "Reset Password",
-      "export": "Export"
+      "export": "Export",
+      "viewByCreate": "View By Create",
+      "viewByAssign": "View By Assign",
+      "evaluation": "Add Evaluation",
+      "orderNew": "Add Order New",
+      "addToLead": "Add To Lead",
+      "recallAction": "Recall Action",
+      "cancel": "Cancel Order",
+      "confirmed": "Confirmed Order",
+      "assignTeam": "Assign  To Team",
+      "undoAssign": "Undo Assign",
+      "finishedOrder": "Finished Order",
+      "reOpenOrder": "ReOpen Order",
+      "undoOrder": "Undo Order"
     }
   },
   "layout": {
@@ -383,6 +396,7 @@
       "hr": "Human Resources",
       "client": "Client Management",
       "orders": "Order Management",
+      "orderManagement": "order Management",
       "marketing": "Marketing Management",
       "finance": "Finance",
       "security": "Security",
@@ -929,6 +943,39 @@
       "print": "Print",
       "total": "Total",
       "vat": "VAT 15%"
+    },
+    "pending": {
+      "title": "Pending"
+    },
+    "recall": {
+      "title": "Recall"
+    },
+    "newOrder": {
+      "title": "New Order"
+    },
+    "urgented": {
+      "title": "Urgented"
+    },
+    "confirmed": {
+      "title": "Confirmed"
+    },
+    "assigned": {
+      "title": "Assigned"
+    },
+    "completed": {
+      "title": "Completed"
+    },
+    "reopen": {
+      "title": "Reopen"
+    },
+    "canceled": {
+      "title": "Canceled"
+    },
+    "priceEval": {
+      "title": "Price Eval"
+    },
+    "orderMap": {
+      "title": "Order Map"
     }
   },
   "marketingManagement": {
@@ -1153,6 +1200,9 @@
     }
   },
   "crm": {
+    "CrmClient": {
+      "title": "Clients"
+    },
     "leads": {
       "title": "Leads",
       "titleOperation": "Lead",

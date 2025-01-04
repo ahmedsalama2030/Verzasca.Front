@@ -366,7 +366,20 @@
       "addGallary": "إضافى صور",
       "userLock": "قفل مستخدم",
       "resetPassword": "تغيير كلمة المرور",
-      "export": "تصدير"
+      "export": "تصدير",
+      "viewByCreate": "عرض ب المنشى",
+      "viewByAssign": "عرض بالمسند",
+      "evaluation": "إنشاء تقييم",
+      "orderNew": "إنشاء طلب جديد",
+      "addToLead": "إضافة الى عميل محتمل",
+      "recallAction": "إعادة الاتصال",
+      "cancel": "إلغاء الطلب",
+      "confirmed": "تاكيد الطلب",
+      "assignTeam": "تاكيد إسناد لفرقة",
+      "undoAssign": "التراجع عن الاسناد",
+      "finishedOrder": "إنهاء الطلب",
+      "reOpenOrder": "إعادة فتح الطلب",
+      "undoOrder": "التراجع عن الاجراء"
     }
   },
   "layout": {
@@ -376,6 +389,7 @@
       "hr": "الموارد البشرية",
       "client": "إدارة العملاء",
       "orders": "إدارة الطلبات",
+      "orderManagement": "إدارة الطلبات",
       "marketing": "إدارة التسويق",
       "finance": "المالية",
       "security": "إدارة المستخدمين",
@@ -914,6 +928,39 @@
       "print": "طباعة",
       "total": "الإجمالي",
       "vat": "% ضريبة القيمة المضافة 15%"
+    },
+    "pending": {
+      "title": "الانتظار"
+    },
+    "recall": {
+      "title": "إعادة الاتصال"
+    },
+    "newOrder": {
+      "title": "الطلبات الجديدة"
+    },
+    "urgented": {
+      "title": "الطلبات المستعجلة"
+    },
+    "confirmed": {
+      "title": "طلبات المؤكدة"
+    },
+    "assigned": {
+      "title": "الطلبات المسندة"
+    },
+    "completed": {
+      "title": "الطلبات المنتهية"
+    },
+    "reopen": {
+      "title": "الطلبات إعادة الفتح"
+    },
+    "canceled": {
+      "title": "الطلبات الملغاه"
+    },
+    "PriceEval": {
+      "title": "تقييم الاسعار"
+    },
+    "orderMap": {
+      "title": "تتبع الطلب"
     }
   },
   "marketingManagement": {
@@ -1127,6 +1174,9 @@
     }
   },
   "crm": {
+    "CrmClient": {
+      "title": "العملاء"
+    },
     "leads": {
       "title": "العملاء المحتملين",
       "titleOperation": "العملاء المحتملين",
