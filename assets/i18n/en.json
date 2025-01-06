@@ -300,6 +300,9 @@
 
   "general": {
     "search": "Search",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
     "message": {
       "successProccess": "Process completed successfully",
       "failProccess": "Process failed",
@@ -466,7 +469,7 @@
       "finished": "Finished"
     },
     "taskReport": {
-      "title": "Task Report",
+      "title": "Task Statistics ",
       "taskStatusTotal": "Task Status / Total",
       "taskUserTotal": "Task User / Total",
       "taskUserDetail": "Task User Detail",
@@ -478,6 +481,14 @@
       "dateEnd": "Date End",
       "userAssineeToName": "Assinee Another",
       "name": "Title"
+    },
+    "taskTeam": {
+      "title": "Task Team ",
+      "creationTime": "Date",
+      "assignName": "Name",
+      "allTask": "All Task",
+      "allFinished": "Finished Task",
+      "precentage": "Precentage"
     },
     "taskDetail": {
       "title": "Task Details"
@@ -831,21 +842,26 @@
       "finishDate": "Finish Date",
       "paidTotal": "Total paid",
       "reminder": "Reminder",
+      "confirmOrder": "Confirm Order",
+      "cancelOrder": "cancel Order",
+      "assignOrder": "assign Order",
+      "undoOrder": "Undo Order",
+      "refundable": "refundableOrders",
 
       "newOrders": {
-        "title": "New",
+        "title": "New Orders",
         "titleOperation": "New"
       },
       "urgentOrders": {
-        "title": "Urgented",
-        "titleOperation": "Urgented"
+        "title": "Urgent Orders",
+        "titleOperation": "Urgent"
       },
       "sureOrders": {
-        "title": "Confirmed ",
+        "title": "Confirmed Orders",
         "titleOperation": "Confirmed "
       },
       "assignedOrders": {
-        "title": "Assigned",
+        "title": "Assigned Orders",
         "titleOperation": "Assigned",
         "finishOrder": "Finish order (New order)",
         "usedShow": "Used show",
@@ -862,11 +878,11 @@
         "remain": "Remain"
       },
       "completeOrders": {
-        "title": "Completed",
+        "title": "Completed Orders",
         "titleOperation": "Completes"
       },
       "refundableOrders": {
-        "title": "Canceled",
+        "title": "Canceled Orders",
         "titleOperation": "Canceled"
       }
     },
@@ -1063,6 +1079,14 @@
       "Invoice": "Invoice",
       "CampaignAGent": "Campaign"
     },
+    "banners": {
+      "title": "Banners",
+      "titleOperation": "Banners",
+      "bannerName": "Banner Name",
+      "bannerImage": "Banner Image",
+      "selectImage": "Select Image",
+      "isActive": "isActive"
+    },
     "integrations": {
       "title": "Api & Keys",
       "titleOperation": "Api & Keys"
@@ -1200,6 +1224,9 @@
     }
   },
   "crm": {
+    "crmOrders": {
+      "title": "Orders"
+    },
     "CrmClient": {
       "title": "Clients"
     },
@@ -1223,7 +1250,9 @@
       "title": "Service After Sale",
       "titleOperation": "Service After Sale",
       "addReview": "Add Review",
-      "review": "Review"
+      "review": "Review",
+      "noAnswer": "No Answer",
+      "noReview": "Are You Sure Save No Answer"
     },
     "reviewQuestion": {
       "title": "Review Questions",

@@ -296,6 +296,7 @@
 
   "general": {
     "search": "بحث",
+    "actions": "الاجراءات",
     "message": {
       "successProccess": "تمت العملية بنجاح",
       "failProccess": "فشلت العملية",
@@ -470,6 +471,14 @@
       "dateEnd": "تاريخ النهاية",
       "userAssineeToName": "إنتهاء من موظف اخر",
       "name": "العنوان"
+    },
+    "taskTeam": {
+      "title": "تقرير مهتم الفريق",
+      "creationTime": "التاريخ",
+      "assignName": "الاسم",
+      "allTask": "عدد المهام",
+      "allFinished": "مهام تمت التنفيذ",
+      "precentage": "نسبة التنفيذ"
     },
     "taskDetail": {
       "title": "تفاصيل المهمة"
@@ -814,8 +823,12 @@
       "sureDate": "تاريخ التاكيد",
       "finishDate": "تاريخ الانتهاء",
       "paidTotal": "إجمالى المدفوع",
-
       "reminder": "المتبقى",
+      "confirmOrder": "تاكيد الطلب",
+      "cancelOrder": "الغاء الطلب",
+      "assignOrder": "اسناد الطلب",
+      "undoOrder": "نراجع عن الطلب",
+      "refundable": "الطلبات الملغاة",
 
       "newOrders": {
         "title": "الطلبات الجديدة",
@@ -1048,6 +1061,14 @@
       "Invoice": "فاتورة",
       "CampaignAGent": "حملة تسويقية"
     },
+    "banners": {
+      "title": "لافتات اعلانية",
+      "titleOperation": "لافتات اعلانية",
+      "bannerName": "اسم اللافتة",
+      "bannerImage": "صورة اللافتة",
+      "selectImage": "اختر صورة",
+      "isActive": "حالة النشاط"
+    },
     "integrations": {
       "title": "ريط api",
       "titleOperation": "ربط api"
@@ -1174,6 +1195,9 @@
     }
   },
   "crm": {
+    "crmOrders": {
+      "title": "الطلبات"
+    },
     "CrmClient": {
       "title": "العملاء"
     },
@@ -1195,7 +1219,9 @@
       "title": "خدمة ما بعد البيع",
       "titleOperation": "خدمة ما بعد البيع",
       "addReview": "إضافة تقييم",
-      "review": "تقييم"
+      "review": "تقييم",
+      "noAnswer": "لا يوجد رد",
+      "noReview": "هل انت متاكد من حفظ عدم الرد"
     },
     "reviewQuestion": {
       "title": "أسئلة تقييم",
