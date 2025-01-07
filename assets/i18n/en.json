@@ -886,6 +886,26 @@
         "titleOperation": "Canceled"
       }
     },
+    "expensesItems": {
+      "title": "Expenses Items",
+      "titleOperation": "Expenses Items",
+      "name": "Name",
+      "notes": "Notes",
+      "isActive": "Is Active"
+    },
+    "expensesOrders": {
+      "title": "Expenses",
+      "titleOperation": "Expenses",
+      "expensesItem": "Expenses Item",
+      "date": "Date",
+      "price": "Price",
+      "creationUser": "Creation User",
+      "creationDate": "Creation Date",
+      "attachFile": "Attach File",
+      "show": "Show",
+      "notes": "Notes",
+      "code": "code"
+    },
     "timeAvailable": {
       "title": "Time availables",
       "titleOperation": "Time available",

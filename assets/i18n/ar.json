@@ -868,6 +868,26 @@
         "titleOperation": "الملغى"
       }
     },
+    "expensesItems": {
+      "title": "اصناف المصروفات",
+      "titleOperation": "اصناف المصروفات",
+      "name": "الاسم",
+      "notes": "ملاحظات",
+      "isActive": "Is Active"
+    },
+    "expensesOrders": {
+      "title": "المصروفات",
+      "titleOperation": "المصروفات",
+      "expensesItem": "اصناف المصروفات",
+      "date": "التاريخ",
+      "price": "السعر",
+      "creationUser": "انشئ بواسطة",
+      "creationDate": "تاريخ الانشاء",
+      "attachFile": "الملف المرفق",
+      "show": "عرض",
+      "notes": "ملاحظات",
+      "code": "كود"
+    },
     "timeAvailable": {
       "title": "المواعيد المتاحة",
       "titleOperation": "موعد متاح",
