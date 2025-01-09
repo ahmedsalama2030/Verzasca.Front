@@ -297,6 +297,8 @@
   "general": {
     "search": "بحث",
     "actions": "الاجراءات",
+    "edit": "تعديل",
+    "delete": "حذف",
     "message": {
       "successProccess": "تمت العملية بنجاح",
       "failProccess": "فشلت العملية",
@@ -753,7 +755,7 @@
       "paymentTypeName": "المدفوعات",
       "finishUser": "منهى بواسطه",
       "creation": "الانشاء",
-      "printPill": "ضباعة الفاتورة",
+      "printPill": "طباعة الفاتورة",
       "reopenOrder": "إعادة الفتح",
       "returnReason": "السبب",
       "reopenNotes": "ملاحظات",
@@ -829,6 +831,13 @@
       "assignOrder": "اسناد الطلب",
       "undoOrder": "نراجع عن الطلب",
       "refundable": "الطلبات الملغاة",
+      "teamAssign": "الطلبات المسندة",
+      "reAssign": "إعادة الإسناد",
+      "customerDetails": "تفاصيل العميل",
+      "customerAddress": "عنوان العميل",
+      "tax": "الضريبة",
+      "net": "الصافى",
+      "subTotal": "الاجمالي قبل الضرائب والخصم",
 
       "newOrders": {
         "title": "الطلبات الجديدة",
@@ -857,7 +866,8 @@
         "promotionDiscount": "الخصم الترويجي",
         "paid": "المدفوع",
         "select": "اختر",
-        "remain": "المتبقي"
+        "remain": "المتبقي",
+        "attachments": "إرفاق صور"
       },
       "completeOrders": {
         "title": "الطلبات المكتملة",
@@ -1158,6 +1168,7 @@
       "AddImage": "إضافة صورة",
       "english": "الانجليزية",
       "arabic": "العربية",
+      "mainImage": "الصورة الرئيسية",
       "descriptionAr": "الوصف بالعربية"
     },
     "channel": {

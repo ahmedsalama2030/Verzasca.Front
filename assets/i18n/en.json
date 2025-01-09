@@ -784,7 +784,7 @@
       "expiration": "Expiration",
       "CVV": "CVV",
       "orderNote": "Order Note",
-      "teamStatus": "Team Status",
+      "teamStatus": "Move Status",
       "requestNoStart": "No Start",
       "callLoggedBeforeArrival": "Call Before Arrival",
       "noAnswerStatusUpdated": "No Answer ",
@@ -793,7 +793,7 @@
       "enRouteToCustomer": "Route To Customer",
       "arrivedAtLocation": "Arrived Location",
       "requestFinished": "Finished",
-      "changeTeamStatus": "Status",
+      "changeTeamStatus": "Move Status",
       "rollBackAssign": "Undo Assign",
       "finishOrder": "Finish Order",
       "teamStatusNotes": "Notes",
@@ -847,6 +847,13 @@
       "assignOrder": "assign Order",
       "undoOrder": "Undo Order",
       "refundable": "refundableOrders",
+      "teamAssign": "Team Assign",
+      "reAssign": "Re Assign",
+      "customerDetails": "Customer Details",
+      "customerAddress": "Customer Address",
+      "tax": "Tax",
+      "net": "Net",
+      "subTotal": "Sub Total",
 
       "newOrders": {
         "title": "New Orders",
@@ -875,7 +882,8 @@
         "promotionDiscount": "Promotion discount",
         "paid": "paid",
         "select": "Select",
-        "remain": "Remain"
+        "remain": "Remain",
+        "attachments": "Attachments"
       },
       "completeOrders": {
         "title": "Completed Orders",
@@ -1176,6 +1184,7 @@
       "AddImage": "Add Image",
       "english": "English",
       "arabic": "Arabic",
+      "mainImage": "Main Image",
       "descriptionAr": "Description Arabic"
     },
 
