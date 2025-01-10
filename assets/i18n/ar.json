@@ -343,7 +343,8 @@
       "addNew": "إضافة جديد",
       "run": "تشغيل",
       "back": "رجوع",
-      "view": "رؤية"
+      "view": "رؤية",
+      "saveAndSend": "حفظ وإرسال"
     },
     "permission": {
       "view": "روية",
@@ -803,7 +804,7 @@
       "currancy": "ريال",
       "canceledEvaluation": "التقييمات الملغية",
       "assignedTo": "مسند الى",
-      "sendToClient": "إرسال الى العميل",
+      "sendToClient": "إضافة جديد",
       "successSendLocation": "نجاح فى إرسال تحديد الموقع",
       "failSendLocation": "فشل فى الارسال ",
       "mustEnterNumber": "يجب إدخال الجوال",

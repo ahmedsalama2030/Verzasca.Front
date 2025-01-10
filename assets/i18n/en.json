@@ -349,7 +349,8 @@
       "back": "Back",
       "run": "Run",
       "view": "View",
-      "loading": "Loading"
+      "loading": "Loading",
+      "saveAndSend": "Save & Send"
     },
 
     "permission": {
@@ -819,7 +820,7 @@
       "assignedTo": "Assigned To",
       "teamName": "Team Name",
 
-      "sendToClient": "Get From Client",
+      "sendToClient": "Add New",
       "successSendLocation": "Success Send Location",
       "failSendLocation": "Fail Send Location",
       "mustEnterNumber": "Must Enter Mobile",
