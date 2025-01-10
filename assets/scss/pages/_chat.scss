@@ -21,7 +21,6 @@
     }
 }
 
-
 .chat-list {
     margin: 0;
 
@@ -145,11 +144,10 @@
     }
 }
 
-
 // user chat
 
 .user-chat {
-    background: url("../../images/chat-bg-pattern.png");
+  //  background: url("../../images/chat-bg-pattern.png");
     transition: all 0.4s;
     position: relative;
     background-color: var(--#{$prefix}body-bg);
@@ -201,7 +199,6 @@
     }
 }
 
-
 .user-chat-nav {
     .nav-btn {
         height: 40px;
@@ -218,7 +215,6 @@
         justify-content: flex-end;
     }
 }
-
 
 .chat-conversation {
     height: calc(100vh - 299px);
@@ -582,7 +578,6 @@
         font-size: 14px;
     }
 }
-
 
 // Chat Small
 .chat-sm {

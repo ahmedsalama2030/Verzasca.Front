@@ -56,7 +56,6 @@
     max-height: calc(100vh - 418px);
 }
 
-
 .tasks {
     min-height: 180px;
     position: relative;
@@ -72,7 +71,7 @@
             height: 180px;
             width: 270px;
             margin: 0 auto;
-            background-image: url('../../images/file.png');
+           // background-image: url('../../images/file.png');
             background-size: cover;
             background-position: center;
         }

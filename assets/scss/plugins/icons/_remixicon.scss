@@ -18,7 +18,7 @@
     url("../../../fonts/remixicon.woff?t=1690730386070") format("woff"),
     url('../../../fonts/remixicon.ttf?t=1690730386070') format('truetype'),
     /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-    url('../../../fonts/remixicon.svg?t=1690730386070#remixicon') format('svg');
+    ;
   /* iOS 4.1- */
   font-display: swap;
 }
@@ -8344,7 +8344,7 @@
   content: "\f20d";
 }
 
-.ri-time-fill:before {
+.ri-history-fill:before {
   content: "\f20e";
 }
 

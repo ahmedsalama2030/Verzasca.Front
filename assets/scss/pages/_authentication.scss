@@ -98,10 +98,10 @@
 // Auth cover
 
 .auth-bg-cover {
-    background: $auth-bg-cover;
+   // background: $auth-bg-cover;../../../images/nft/marketplace.png
 
     >.bg-overlay {
-        background-image: url("../../images/cover-pattern.png");
+     //   background-image: url("../../images/cover-pattern.png");
         background-position: center;
         background-size: cover;
         opacity: 1;
