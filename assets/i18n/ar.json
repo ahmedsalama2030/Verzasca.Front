@@ -383,7 +383,8 @@
       "undoAssign": "التراجع عن الاسناد",
       "finishedOrder": "إنهاء الطلب",
       "reOpenOrder": "إعادة فتح الطلب",
-      "undoOrder": "التراجع عن الاجراء"
+      "undoOrder": "التراجع عن الاجراء",
+      "viewList": "رؤية الكل"
     }
   },
   "layout": {

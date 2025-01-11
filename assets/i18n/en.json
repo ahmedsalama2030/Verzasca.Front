@@ -390,7 +390,8 @@
       "undoAssign": "Undo Assign",
       "finishedOrder": "Finished Order",
       "reOpenOrder": "ReOpen Order",
-      "undoOrder": "Undo Order"
+      "undoOrder": "Undo Order",
+      "viewList": "View All Order"
     }
   },
   "layout": {
