@@ -429,6 +429,24 @@
       "signin": "تسجيل الدخول"
     }
   },
+  "stores": {
+    "store": {
+      "title": "المخازن",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "isActive": "حالة النشاط",
+      "isMain": "Is Main"
+    },
+    "items": {
+      "title": "عناصر المخزن",
+      "image": "الصورة",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "minimumQuantity": "أقل كمية",
+      "isActive": "حالة النشاط",
+      "isMain": "Is Main"
+    }
+  },
   "task": {
     "tasklist": {
       "title": "  المهام اليومية",
@@ -1228,8 +1246,14 @@
     }
   },
   "crm": {
+    "pending": {
+      "title": "الطلبات المعلقة"
+    },
+    "recall": {
+      "title": "طلبات إعادة الاتصال"
+    },
     "crmOrders": {
-      "title": "الطلبات"
+      "title": "الطلبات المعلقة"
     },
     "CrmClient": {
       "title": "العملاء"
@@ -1335,6 +1359,7 @@
       "cities": "المدن",
       "teams": "الفرق",
       "dateReview": "التاريخ ",
+      "ordersMap": "خريطة الطلبات ",
       "evaluationQualityService": "Evaluation Quality Service",
       "areSatisfiedTeamTreatment": "Team treating you well?",
       "howPunctualYou": "How punctual were you?",
@@ -1354,7 +1379,14 @@
     },
     "orderDaily": {
       "title": "الطلبات اليومية",
-      "titleOperation": "طلب يومى"
+      "titleOperation": "طلب يومى",
+      "notFound": "لا يوجد طلب",
+      "total": "الإجمالي",
+      "time": "المواعيد",
+      "revenue": "الايراد",
+      "cityTime": "المدن- الامواعيد",
+      "revenueTime": "المواعد - الايراد",
+      "orderDays": "الطلبات - الايام"
     }
   },
   "store": {

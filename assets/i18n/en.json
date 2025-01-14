@@ -357,7 +357,7 @@
       "view": "View",
       "edit": "Edit",
       "delete": "Delete",
-      "register": "Register",
+      "register": "Create",
       "save": "Save",
       "changeStatus": "Change Status",
       "changeText": "Change Text",
@@ -435,6 +435,24 @@
       "username": "Username",
       "password": "Password",
       "signin": "Sign In"
+    }
+  },
+  "stores": {
+    "store": {
+      "title": "Stores",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "isActive": "Is Active",
+      "isMain": "Is Main"
+    },
+    "items": {
+      "title": "Stores Items",
+      "image": "Image",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "minimumQuantity": "Minimum Quantity",
+      "isActive": "Is Active",
+      "isMain": "Is Main"
     }
   },
   "task": {
@@ -1255,8 +1273,14 @@
     }
   },
   "crm": {
+    "pending": {
+      "title": "Pending"
+    },
+    "recall": {
+      "title": "Recall"
+    },
     "crmOrders": {
-      "title": "Orders"
+      "title": "Pending Orders"
     },
     "CrmClient": {
       "title": "Clients"
@@ -1368,6 +1392,7 @@
       "cities": "Cities",
       "teams": "Teams",
       "dateReview": "Date From - To ",
+      "ordersMap": "Orders Map",
       "evaluationQualityService": "Evaluation Quality Service",
       "areSatisfiedTeamTreatment": "Team treating you well?",
       "howPunctualYou": "How punctual were you?",
@@ -1386,7 +1411,14 @@
     },
     "orderDaily": {
       "title": "Order Daily",
-      "titleOperation": "Order Daily"
+      "titleOperation": "Order Daily",
+      "notFound": "Not Found",
+      "total": "Total",
+      "time": "Time",
+      "revenue": "Revenue",
+      "cityTime": "City- Work Time",
+      "revenueTime": "Revenue - Time",
+      "orderDays": "Order -  Days"
     }
   },
   "store": {
