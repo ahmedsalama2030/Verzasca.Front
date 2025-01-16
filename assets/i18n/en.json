@@ -1,4 +1,16 @@
 {
+  "maps": {
+    "title": "Maps",
+    "orderCode": "Order Code",
+    "city": "City",
+    "district": "District",
+    "agentName": "Agent Name",
+    "mobile": "Mobile",
+    "openInGoogleMaps": "Open InGoogle Maps",
+    "moreDetails": "More Details",
+    "servicesName": "Services Name",
+    "title2": "Maps"
+  },
   "HEADER": {
     "MORE": {
       "TEXT": "More"
@@ -391,7 +403,8 @@
       "finishedOrder": "Finished Order",
       "reOpenOrder": "ReOpen Order",
       "undoOrder": "Undo Order",
-      "viewList": "View All Order"
+      "viewList": "View All Order",
+      "viewAvaliableTime":"View AvaliableTime"
     }
   },
   "layout": {
@@ -765,7 +778,7 @@
       "Discount": "Discount",
       "Total": "Total",
       "TotalPaid": "Total Paid",
-      "OrderSummary": "Order Summary",
+      "OrderSummary": "Summary",
       "actions": "Actions",
       "location": "Location",
       "AreYouSureMessage": "Are you sure?",
@@ -796,7 +809,7 @@
       "selectedServices": "Services",
       "clientServices": "Client Services",
       "noCategoryMessage": "No Category Selected Yet !",
-      "orderSummary": "Order Summary",
+      "orderSummary": "Summary",
       "viewOrderSummary": "You Can View Order Summary Details",
       "paymentSelection": "Payment Selection",
       "nameOnCard": "Name On Card",
@@ -871,10 +884,16 @@
       "reAssign": "Re Assign",
       "customerDetails": "Customer Details",
       "customerAddress": "Customer Address",
+      "mapURL": "Client Location URL",
+      "serviceTime": "Service Number Time",
+      "mustSelectOrderLocations": "must Select Order Locations",
       "tax": "Tax",
       "net": "Net",
       "subTotal": "Sub Total",
-
+      "mustSelectServiceTime": "Must Select   Time Equal Service Need ",
+      "withPayURL": "With  Payment link  ",
+      "cashOnDelivery": "Cash On Delivery",
+      "mustAddPayment":"Must Add Payment",
       "newOrders": {
         "title": "New Orders",
         "titleOperation": "New"
@@ -1393,6 +1412,7 @@
       "teams": "Teams",
       "dateReview": "Date From - To ",
       "ordersMap": "Orders Map",
+      "ordersDetails": "Orders Details",
       "evaluationQualityService": "Evaluation Quality Service",
       "areSatisfiedTeamTreatment": "Team treating you well?",
       "howPunctualYou": "How punctual were you?",
@@ -1411,6 +1431,7 @@
     },
     "orderDaily": {
       "title": "Order Daily",
+      "title2": "Order Daily Details",
       "titleOperation": "Order Daily",
       "notFound": "Not Found",
       "total": "Total",

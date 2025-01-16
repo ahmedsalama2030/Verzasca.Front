@@ -1,4 +1,17 @@
 {
+  "maps": {
+    "title": "خرائط",
+    "orderCode": "كود الطلب",
+    "city": "المدينة",
+    "district": "الحي",
+    "agentName": "اسم العميل",
+    "mobile": "رقم الموبايل",
+    "servicesName": "اسم الخدمة",
+    "openInGoogleMaps": "فتح في جوجل ماب",
+    "moreDetails": "المزيد من التفاصيل",
+    "title2": "خرائط"
+  },
+
   "HEADER": {
     "MORE": {
       "TEXT": "أكثر"
@@ -806,6 +819,7 @@
       "arrivedAtLocation": "فى الموقع",
       "requestFinished": "إنهاء الطلب",
       "changeTeamStatus": "تغيير الحالة",
+      "finishOrder": "انهاء الطلب",
       "evaluate": "تفقييم",
       "clientExist": "هذا العميل موجود من قبل",
       "clientNotExist": "هذا العميل غير موجود من قبل",
@@ -858,7 +872,13 @@
       "tax": "الضريبة",
       "net": "الصافى",
       "subTotal": "الاجمالي قبل الضرائب والخصم",
-
+      "mapURL": "لينك الموقع للعميل",
+      "serviceTime": " عدد المواعيد اللازمة",
+      "mustSelectOrderLocations": "يجب ملى بيانات العميل والعنوان اولا ",
+      "mustSelectServiceTime": "يجب إختيار عدد مواعيد مساو على مواعيد الخدمة",
+      "withPayURL": "مع رابط دفع ",
+      "cashOnDelivery": "الدفع عند الاستلام",
+      "mustAddPayment":"يجب تسجيل المدفوعات",
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
@@ -1355,11 +1375,13 @@
   "statistics": {
     "orderReview": {
       "title": "أحصائية تقييم الطلبات",
+      "title2": "تفاصيل أحصائية تقييم الطلبات",
       "titleOperation": "تقييم طلب",
       "cities": "المدن",
       "teams": "الفرق",
       "dateReview": "التاريخ ",
       "ordersMap": "خريطة الطلبات ",
+      "ordersDetails": "تفاصيل الطلبات ",
       "evaluationQualityService": "Evaluation Quality Service",
       "areSatisfiedTeamTreatment": "Team treating you well?",
       "howPunctualYou": "How punctual were you?",
