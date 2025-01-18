@@ -898,6 +898,7 @@
       "clientNotResponse": "not responding",
       "requestCancellation": "cancellation",
       "clientDelayOrder": " requested  delay",
+      "discount":"Discount precentage",
       "newOrders": {
         "title": "New Orders",
         "titleOperation": "New"

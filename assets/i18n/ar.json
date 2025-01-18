@@ -883,6 +883,7 @@
       "clientNotResponse": "العميل لايرد",
       "requestCancellation": "العميل طلب الالغاء",
       "clientDelayOrder": "العميل طلب التأخيل",
+      "discount":"خصم نسبة",
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
