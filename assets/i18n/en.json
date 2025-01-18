@@ -740,8 +740,8 @@
       "RecallMessageCount": "The customer has been contacted more than",
       "RecallMessageCount2": "The request will be forwarded for inquiry.",
       "times": "times",
-      "addOrders": "Add Orders",
-      "editOrders": "Edit Orders",
+      "addOrders": "New",
+      "editOrders": "Edit",
       "orderType": "Order Type",
       "orderSource": "Order Source",
       "clientName": "client",
@@ -1443,7 +1443,9 @@
       "revenue": "Revenue",
       "cityTime": "City- Work Time",
       "revenueTime": "Revenue - Time",
-      "orderDays": "Order -  Days"
+      "orderDays": "Order -  Days",
+      "reorder":"re Order",
+      "teamHoliday":"Holiday"
     }
   },
   "store": {

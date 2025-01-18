@@ -1406,13 +1406,15 @@
     "orderDaily": {
       "title": "الطلبات اليومية",
       "titleOperation": "طلب يومى",
-      "notFound": "لا يوجد طلب",
+      "notFound": "لا يوجد عميل",
       "total": "الإجمالي",
       "time": "المواعيد",
       "revenue": "الايراد",
       "cityTime": "المدن- الامواعيد",
       "revenueTime": "المواعد - الايراد",
-      "orderDays": "الطلبات - الايام"
+      "orderDays": "الطلبات - الايام",
+      "reorder": "إعادة",
+      "teamHoliday":"راحة"
     }
   },
   "store": {
